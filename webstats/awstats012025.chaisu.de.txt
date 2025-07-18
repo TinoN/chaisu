@@ -1,0 +1,409 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202501 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.chaisu.de.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1992                
+POS_TIME 2683                
+POS_VISITOR 8534                
+POS_DAY 9165                
+POS_DOMAIN 3370                
+POS_LOGIN 3645                
+POS_ROBOT 3800                
+POS_WORMS 4260                
+POS_EMAILSENDER 4391                
+POS_EMAILRECEIVER 4534                
+POS_SESSION 9302                
+POS_SIDER 9486                
+POS_FILETYPES 4669                
+POS_DOWNLOADS 4986                
+POS_OS 5034                
+POS_BROWSER 5166                
+POS_SCREENSIZE 5351                
+POS_UNKNOWNREFERER 5425                
+POS_UNKNOWNREFERERBROWSER 5540                
+POS_ORIGIN 5650                
+POS_SEREFERRALS 5788                
+POS_PAGEREFS 5932                
+POS_SEARCHWORDS 6080                
+POS_KEYWORDS 6232                
+POS_MISC 2346                
+POS_ERRORS 6291                
+POS_CLUSTER 3501                
+POS_SIDER_404 6449                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250201010324 5153 1563922 12074139759530
+FirstTime 20250129085833
+LastTime 20250131075907
+LastUpdate 20250201043624 5153 4176 68 0 908
+TotalVisits 24                  
+TotalUnique 11                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 16                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 42 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 1 1 11
+1 0 0 0 1 1 0
+2 0 0 0 0 0 0
+3 2 2 16123 4 7 56677
+4 1 1 200 2 3 128
+5 1 1 7944 2 3 139
+6 1 1 8563 1 2 128
+7 1 1 8339 1 2 117
+8 10 117 1761302 5 6 139
+9 62 191 6025856 25 51 65488
+10 44 46 131550 7 14 47228
+11 92 323 4557931 21 38 2702
+12 306 1237 27350819 101 156 511722
+13 165 909 20825835 87 99 219791
+14 4 68 1096933 16 55 1080230
+15 8 8 756 7 15 51379
+16 149 205 3449706 17 46 8009
+17 1 1 171 4 4 291
+18 36 57 1428808 39 41 24424
+19 176 422 10192501 46 68 44669
+20 0 0 0 1 1 0
+21 10 11 65589 21 21 12402
+22 0 0 0 0 0 0
+23 2 2 15883 5 7 8689
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+de 1050 3518 75585499
+us 13 77 1302258
+fr 7 7 49116
+ru 1 1 7936
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+wordpress 221 94536 20250131191553 0
+facebookexternalhit/ 33 1018474 20250129144458 0
+Googlebot/ 33 197252 20250131150455 2
+bingbot/ 9 1584 20250131191555 2
+unknown 8 936 20250131082455 8
+SemrushBot/ 6 17195 20250131160019 2
+no_user_agent 6 82677 20250129122116 0
+CFNetwork 2 8238 20250130144359 0
+curl 1 42298 20250130033858 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+gif 13 98482 0 0
+png 61 3334041 0 0
+html 151 3811109 0 0
+xml 1 200 0 0
+ttf 1 21282 0 0
+woff2 11 1177596 0 0
+php 540 29132804 0 0
+js 1721 29902443 0 0
+Unknown 357 1315520 0 0
+woff 10 1098604 0 0
+css 577 2087176 0 0
+jpg 57 4582532 0 0
+svg 103 383020 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+macosx 3529 1061
+win10 65 1
+linux 7 7
+Unknown 1 1
+linuxandroid 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 7
+chrome110.0.0.0 1 1
+chrome94.0.4590.2 12 12
+firefox134.0 3516 1048
+Unknown 1 1
+safari16.0 1 1
+chrome124.0.0.0 7 7
+chrome132.0.0.0 65 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+GuzzleHttp/7 20250130182433
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+GuzzleHttp/7 20250130182433
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 41 41
+From1 0 0
+From2 0 0
+From3 0 0
+From4 1030 3562
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+499 173 0
+500 3 8251
+403 11 40773
+302 51 180
+504 2 179250
+301 13 20
+404 23 442689
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 18
+/%22https:/websitedemos.net/learn-baking-02/wp-content/uploads/sites/768/2021/01/baking-course-template-about-me-img-2.jpg 1 https://chaisu.de/wp-admin/post.php
+/%22https:/websitedemos.net/learn-baking-02/wp-content/uploads/sites/768/2021/01/baking-course-template-reviewer-1.jpg/ 1 https://chaisu.de/wp-admin/post.php
+/2025/01/30/hello-world/ 2 -
+/%22https:/websitedemos.net/learn-baking-02/wp-content/uploads/sites/768/2021/01/baking-course-template-about-me-img-3.jpg 1 https://chaisu.de/wp-admin/post.php
+/survey/ 1 -
+/wp-content/uploads/2024/10/chaisu_logo_vertical.png 1 -
+/wp-content/uploads/2024/10/IMG_1800-scaled.jpg 1 https://websitedemos.net/
+/%22https:/websitedemos.net/learn-baking-02/wp-content/uploads/sites/768/2021/01/baking-course-template-hero-img.jpg 1 https://chaisu.de/wp-admin/post.php
+/%22https:/websitedemos.net/learn-baking-02/wp-content/uploads/sites/768/2021/01/baking-course-template-reviewer-2.jpg/ 1 https://chaisu.de/wp-admin/post.php
+/apple-touch-icon.png 1 -
+/apple-touch-icon-precomposed.png 1 -
+/%22https:/websitedemos.net/learn-baking-02/wp-content/uploads/sites/768/2021/01/baking-course-template-reviewer-4.jpg/ 1 https://chaisu.de/wp-admin/post.php
+/%22https:/websitedemos.net/learn-baking-02/wp-content/uploads/sites/768/2021/01/baking-course-template-about-me-img-1.jpg 1 https://chaisu.de/wp-admin/post.php
+/2025/01/29/hello-world/ 4 -
+/%22https:/websitedemos.net/learn-baking-02/wp-content/uploads/sites/768/2021/01/baking-course-template-reviewer-3.jpg/ 1 https://chaisu.de/wp-admin/post.php
+/wp-admin/admin-ajax.php 2 https://chaisu.de/wp-admin/customize.php
+/%22https:/websitedemos.net/learn-baking-02/wp-content/uploads/sites/768/2021/01/yellow-diamond-shape.svg/ 1 https://chaisu.de/wp-admin/post.php
+/wp-admin/admin.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 16
+37.4.249.109 1049 3517 75459777 20250130215310
+62.138.2.214 7 7 49116 20250131075907
+66.249.81.38 3 3 52152 20250129191142
+66.102.9.102 3 3 52152 20250130133441
+66.249.93.172 2 2 34768 20250130184702
+66.102.9.103 2 2 34768 20250130133445
+66.249.81.32 1 1 17384 20250129191140
+66.102.9.101 1 1 17384 20250129090957
+78.47.219.164 1 1 125722 20250130182433
+173.252.95.31 1 11 62527 20250129144420
+173.252.95.19 0 9 24778 
+173.252.95.13 0 9 84019 
+173.252.95.4 0 12 594616 
+173.252.95.1 0 8 17412 
+93.159.230.85 1 1 7936 20250130234144
+173.252.95.3 0 16 310298 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20250129 726 2437 51182318 11
+20250130 339 1160 25721322 10
+20250131 6 6 41169 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+0s-30s 15
+2mn-5mn 1
+30mn-1h 1
+1h+ 5
+5mn-15mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 103
+/wp-admin/admin-ajax.php 355 2600521 0 4
+/ 104 3259877 13 13
+/wp-json/elementor/v1/checklist/user-progress 54 8674 3 1
+/wp-admin/load-styles.php 35 2429076 0 0
+/wp-json/wp/v2/users/me 33 43080 0 0
+/wp-admin/admin.php 32 1950949 1 0
+/wp-admin/load-scripts.php 30 1380636 0 0
+/wp-json/wc-admin/options 29 2307 0 0
+/wp-json/siteground-central/v1/save-step 27 11357 0 0
+/wp-admin/plugins.php 16 1490967 0 0
+/wp-admin/plugin-install.php 2 34273 0 0
+/diam-aliquam-sapien-lorem-dapibus-in/ 1 42368 0 0
+/wp-content/themes/storefront/assets/fonts/fa-solid-900.woff2 1 79444 0 0
+/wp-json/elementor/v1/site-navigation/recent-posts 2 437 0 0
+/wp-json/wp/v2/widget-types 10 12500 0 0
+/wp-admin/options-general.php 9 454785 0 0
+/sample-page/ 1 8563 0 1
+/wp-admin/ 1 27907 0 0
+/wp-admin/update-core.php 7 175004 0 0
+/wp-admin/themes.php 14 2276269 0 0
+/wp-json/siteground-central/v1/get-step/5 4 7537 0 0
+/wp-json/wc-analytics/admin/notes/58 1 558 0 0
+/wp-json/omapp/v1/notifications/ 1 258 0 0
+/wp-json/wc-admin/onboarding/tasks 5 7135 0 0
+/cart/ 1 8339 1 1
+/wp-json/ 3 575 0 0
+/wp-json/wc-admin/onboarding/profile 5 887 0 0
+/wp-json/wc-admin/onboarding/free-extensions 2 2677 0 0
+/wp-json/nps-survey/v1/dismiss-nps-survey 1 36 0 0
+/wp-json/wc-analytics/settings/products/batch 2 727 0 0
+/wp-json/wc-analytics/orders 5 105 0 0
+/wp-content/plugins/astra-sites/inc/lib/zip-ai/sidebar/build/fonts/inter-400.0882e7c3.woff 4 598928 0 0
+/wp-json/gutenberg-templates/v1/blocks 4 796912 0 0
+/wp-json/elementor/v1/checklist/steps 1 849 0 0
+/wp-content/plugins/wpforms-lite/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2 1 77160 0 0
+/wp-json/wc-admin/onboarding/profile/progress/core-profiler/complete 4 485 0 0
+/wp-json/gutenberg-templates/v1/sites 2 163036 0 0
+/wp-json/wp/v2/types 12 10098 0 0
+/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2 3 160800 0 0
+/wp-admin/edit.php 5 168120 0 0
+/events-2024/ 1 39687 0 0
+/wp-json/wp/v2/blocks 6 2765 0 0
+/wp-json/wc-analytics/admin/notes 11 2459 0 0
+/wp-json/wp/v2/users/1 2 88 0 0
+/wp-json/wp/v2/settings 6 7381 0 0
+/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 1 18824 0 0
+/wp-json/siteground-central/v1/get-step/4 8 17224 0 0
+/wp-admin/site-editor.php 1 110324 0 0
+/about/ 3 125682 0 0
+/wp-content/plugins/optinmonster/assets/fonts/fontawesome-webfont.woff2 1 77160 0 0
+/wp-admin/index.php 8 58749 3 0
+/shop/ 2 15895 0 0
+/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2 2 653256 0 0
+/wp-json/siteground-central/v1/restart 3 1173 0 0
+/wp-json/wc-analytics/products/reviews 5 105 0 0
+/wp-login.php 5 12862 1 1
+/wp-json/siteground-central/v1/get-step/1 6 2514 0 0
+/wp-json/gutenberg-templates/v1/categories 2 1154 0 0
+/wp-json/wc-admin/plugins/active 6 604 0 0
+/wp-json/elementor/v1/globals 2 752 0 0
+/wp-json/siteground-central/v1/get-step/3 10 44240 0 1
+/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2 1 98056 0 0
+/wp-json/astra/v1/admin/settings/ 16 1322 0 1
+/wp-admin/theme-install.php 2 28968 0 0
+/wp-json/wpforms/v1/themes/ 9 14668 0 0
+/wp-json/wc-analytics/products/count-low-in-stock 5 141 0 0
+/wp-json/wp/v2/template-parts 1 1168 0 0
+/wp-json/spectra/v1/editor 7 1169 0 0
+/wp-admin/async-upload.php 3 2565 0 0
+/events/ 2 79132 0 0
+/wp-admin/customize.php 10 13511502 0 0
+/wp-json/wp/v2/taxonomies 3 3604 0 0
+/wp-json/wc-admin/plugins/installed 6 600 0 0
+/wp-content/plugins/leadin/public/assets/style/fonts/LexendDeca-Light.woff2 1 29088 0 0
+/wp-json/wp/v2/wp_pattern_category 3 18 0 0
+/wp-sitemap.xml 1 200 0 1
+/wp-content/plugins/leadin/public/assets/style/fonts/hs-font.woff 2 2232 0 0
+/wp-json/wp/v2/users 2 92 0 0
+/wp-json/wc-admin/onboarding/profile/progress 2 39 0 0
+/wp-json/wc-analytics/settings/general/batch 2 59691 0 0
+/wp-json/wc-analytics/data/countries 2 49021 0 0
+/my-account/ 1 7944 1 0
+/wp-content/plugins/header-footer-elementor/assets/fonts/hfe.ttf 1 21282 0 0
+/wp-json/jetpack/v4/connection 6 846 0 0
+/wp-json/wc-admin/launch-your-store/initialize-coming-soon 2 43 0 0
+/wp-json/wp/v2/block-patterns/patterns 1 22153 0 0
+/checkout/ 1 8201 1 0
+/wp-json/siteground-central/v1/get-step/0 7 2744 0 0
+/wp-json/gutenberg-templates/v1/setup 2 71 0 0
+/wp-admin/post.php 6 2447234 0 0
+/wp-json/wp/v2/types/wp_block 1 946 0 0
+/wp-json/wc-analytics/admin/notes/59 1 533 0 0
+/wp-json/siteground-central/v1/dashboard 6 10866 0 0
+/wp-json/elementor/v1/kit-elements-defaults 2 12 0 0
+/wp-json/siteground-central/v1/get-step/8 4 1352 0 0
+/wp-json/jetpack/v4/connection/data 5 955 0 0
+/wp-json/wp/v2/block-patterns/categories 3 1924 0 0
+/wp-content/plugins/astra-sites/inc/lib/zip-ai/sidebar/build/fonts/inter-600.fe26362c.woff 3 478620 0 0
+/blog/ 4 170691 0 0
+/wp-json/siteground-central/v1/exit-wizard 3 369 0 0
+/wp-json/wc-analytics/reports/performance-indicators 6 1312 0 0
+/wp-content/plugins/wpforms-lite/assets/images/integrations/elementor/font/icon-wpforms.woff2 1 2632 0 0
+/wp-json/siteground-central/v1/get-step 5 5995 0 0
+END_SIDER

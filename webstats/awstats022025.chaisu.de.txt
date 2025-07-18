@@ -1,0 +1,760 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202502 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.chaisu.de.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1992                
+POS_TIME 2675                
+POS_VISITOR 10911               
+POS_DAY 14617               
+POS_DOMAIN 3634                
+POS_LOGIN 4084                
+POS_ROBOT 4239                
+POS_WORMS 5203                
+POS_EMAILSENDER 5334                
+POS_EMAILRECEIVER 5477                
+POS_SESSION 15364               
+POS_SIDER 15571               
+POS_FILETYPES 5612                
+POS_DOWNLOADS 5966                
+POS_OS 6014                
+POS_BROWSER 6214                
+POS_SCREENSIZE 7032                
+POS_UNKNOWNREFERER 7106                
+POS_UNKNOWNREFERERBROWSER 7374                
+POS_ORIGIN 7639                
+POS_SEREFERRALS 7783                
+POS_PAGEREFS 7927                
+POS_SEARCHWORDS 8164                
+POS_KEYWORDS 8316                
+POS_MISC 2338                
+POS_ERRORS 8375                
+POS_CLUSTER 3940                
+POS_SIDER_404 8610                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250301004550 52782 16626448 12858681257232
+FirstTime 0
+LastTime 20250227224222
+LastUpdate 20250301043133 52782 50091 96 0 2594
+TotalVisits 142                 
+TotalUnique 74                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 102                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 51 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 9 58 4912801 108 195 5285102
+1 31 128 18579101 84 147 945797
+2 13 13 406679 88 102 723137
+3 11 17 770013 140 168 965647
+4 13 14 240793 235 381 4155535
+5 7 7 186501 94 165 1159783
+6 27 28 1066519 126 153 1073656
+7 77 83 3072330 127 148 1161138
+8 250 669 9700886 121 163 680260
+9 383 1531 31887053 154 272 4369385
+10 843 1829 28982187 816 861 2460162
+11 1237 2628 57296091 925 952 936843
+12 799 1531 45426907 815 828 346898
+13 557 1995 47451743 821 871 879398
+14 223 644 9422082 147 170 1697609
+15 712 956 12771423 580 728 9800225
+16 2509 3553 41379045 576 690 4539835
+17 2125 3092 49805502 351 409 1960506
+18 2489 2981 25199676 759 832 19917279
+19 2563 3831 41892290 676 837 6119950
+20 2957 4720 82417978 1137 1239 1655773
+21 2228 2446 25780061 788 820 678667
+22 703 813 27400097 702 726 1072574
+23 253 314 5128922 114 205 1573594
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 15
+de 20698 32995 503866260
+fr 217 320 25511681
+us 45 96 6419942
+ec 24 202 18121804
+se 14 117 6474235
+ca 8 79 5171955
+ie 4 52 4806423
+kr 2 2 2674
+tr 2 6 183515
+ru 2 2 87039
+gb 1 6 141523
+nl 0 1 119168
+be 1 1 204359
+bg 1 1 43501
+vn 0 1 22601
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 21
+wordpress 4636 702514 20250228234350 0
+Googlebot/ 558 3711604 20250228200839 16
+AhrefsBot/ 535 7895125 20250228234350 40
+bingbot/ 228 346184 20250228142758 18
+YandexBot/ 180 3576410 20250226071247 49
+SemrushBot/ 158 4118354 20250228013658 52
+facebookexternalhit/ 135 14600100 20250227002521 4
+yandex 129 821825 20250224085209 0
+dataprovider\.com 67 7526546 20250224150715 1
+unknown 66 11022 20250225092947 66
+curl 4 1868578 20250223050503 0
+feed 2 76467 20250210214714 0
+spider 28 198965 20250217194908 2
+YandexImages/ 43 21109935 20250223011134 0
+archive\.org_bot 2 87045 20250223190732 0
+Apache\-HttpClient/ 2 334 20250225071359 2
+Googlebot\-Image/ 18 214852 20250228205939 0
+bot[\s_+:,\.\;\/\\-] 2 45236 20250223201222 0
+python 2 87049 20250225164237 0
+CFNetwork 1 24073 20250218164350 0
+no_user_agent 3 222543 20250223132454 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+svg 361 458668 0 0
+js 7494 45067708 0 0
+png 1380 134199130 0 0
+jpeg 380 33707321 0 0
+jpg 621 35467905 0 0
+php 16450 210978828 0 0
+woff 19 62636 0 0
+xml 25 6750 0 0
+gif 47 4677133 0 0
+css 2579 11872996 0 0
+woff2 27 3534548 0 0
+ttf 1 638 0 0
+Unknown 2451 43592727 0 0
+html 2046 47549692 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+macosx 30731 19699
+win10 2002 795
+macosx10 8 8
+Unknown 19 5
+linuxandroid 727 369
+macosx9 1 1
+linux 164 115
+win7 27 3
+ios_iphone 202 24
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 37
+Unknown 9 4
+chrome113.0.0.0 1 1
+chrome114.0.0.0 1 1
+iphone 202 24
+mozilla 12 3
+chrome110.0.0.0 5 4
+chrome80.0.3987.162 1 1
+chrome122.0.0.0 1 1
+firefox59.0 53 3
+opera114.0.0. 111 59
+chrome124.0.0.0 98 98
+firefox134.0 9158 3650
+chrome132.0.6834.163 497 319
+chrome115.0.0.0 2 2
+chrome84.0.4147.105 1 1
+firefox135.0 23037 16668
+firefox103.0 50 0
+chrome125.0.6422.60 53 4
+chrome116.0.0.0 4 4
+chrome91.0.4472.114 4 4
+chrome83.0.4103.61 27 3
+chrome85.0.4183.121 1 1
+chrome117.0.0.0 2 2
+safari8.0 8 8
+firefox68.0 2 2
+firefox130.0 2 2
+chrome133.0.0.0 52 4
+chrome83.0.4103.97 10 10
+chrome127.0.0.0 2 0
+netscape5.0 1 1
+chrome132.0.0.0 228 48
+chrome94.0.4590.2 4 4
+chrome105.0.0.0 10 5
+chrome131.0.0.0 127 68
+chrome130.0.0.0 53 5
+chrome99.0.4844.51 1 1
+chrome117.0.5938.132 51 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250214114904
+WhatsApp/2.23.20.0 20250205103450
+Photon/1.0 20250206105808
+Ruby 20250209173352
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+WhatsApp/2.23.20.0 20250205103450
+Photon/1.0 20250206105808
+Macintosh;_Intel_Mac_OS_X_10_15_7)_AppleWebKit/605.1.15_(KHTML,_like_Gecko)_Version/16. 20250207122314
+Ruby 20250209173352
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 408 696
+From1 0 0
+From2 0 0
+From3 34 34
+From4 20577 33151
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+https://l.instagram.com 32 32
+https://wordpress.com 1 1
+https://tools.siteground.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 13
+400 4087 4087
+403 16 1002
+414 22 0
+401 1 109
+301 155 1054
+404 137 4966922
+500 45 18637
+503 2 89794
+405 2 53
+201 3 22710
+499 603 0
+302 137 1796016
+207 2 13563
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 39
+/sitemap.txt 2 -
+/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-05-at-07.58.13-150x150.jpeg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:300,%22width%22:300,%22url%22:%22https://chaisu.de/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-05-at-0 18 -
+/wp-json/wp/v2/pages/409 1 -
+/wp-content/uploads/2024/10/chaisu_logo_vertical-160x53.png 4 -
+/sitemap_index.xml 2 -
+/hello-world/ 3 -
+/wp-content/uploads/2024/10/cropped-chaisu_logo3-180x180.png 1 -
+/media/system/js/core.js 2 -
+/this-is-going-to-be-the-3rd-article/ 1 -
+/my-account/ 3 -
+/ 30 -
+/security.txt 1 -
+/ads.txt 1 -
+/wp-content/uploads/uag-plugin/assets/0/uag-css-61.css 3 https://chaisu.de/
+/wp-content/uploads/uag-plugin/assets/3000/uag-js-3179.js 1 https://chaisu.de/el-despertar-de-la-primvera-y-el-ascenso-de-la-energia-yang/
+/fall-season-tea-tasting-yoga-workshop/ 11 -
+/.well-known/hosting-provider 3 https://chaisu.de/.well-known/hosting-provider
+/sample-page/ 3 -
+/second-article/ 3 -
+/.well-known/security.txt 1 -
+/.well-known/assetlinks.json 1 -
+/blog/ 1 -
+/undefined 1 https://chaisu.de/
+/humans.txt 1 -
+/wp-content/uploads/2024/10/tea_dropping.png 1 -
+/events-2024/ 3 -
+/shop/ 2 -
+/wp-content/uploads/2024/10/va_tea_master.png 2 -
+/sitemaps.xml 2 -
+/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-04-at-10.15.47-PM-150x150.jpeg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:260,%22width%22:300,%22url%22:%22https://chaisu.de/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-04-a 8 -
+/9-2/ 1 -
+/wp-content/uploads/2024/10/cropped-chaisu_logo3-32x32.png 1 -
+/2025/02/02/hello-world/ 2 -
+/https%3A/gmpg.org/xfn/11 2 -
+/wp-json/litespeed/v1/cdn_status 1 https://chaisu.de
+/brandstore-02/my-account/ 3 https://chaisu.de/about/
+/about/ 9 https://chaisu.de/about/
+/wp-content/uploads/uag-plugin/assets/3000/uag-css-3179.css 1 https://chaisu.de/el-despertar-de-la-primvera-y-el-ascenso-de-la-energia-yang/
+/wp-content/uploads/2024/10/cropped-chaisu_logo3-192x192.png 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 102
+37.4.249.109 20688 32926 498549214 20250218164349
+62.138.2.214 98 115 6379864 20250225084515
+92.204.40.4 59 59 2136241 20250225071606
+85.25.185.238 59 111 12606471 20250212224638
+186.71.252.74 13 106 14570529 20250216013446
+190.130.221.253 11 96 3551275 20250214162913
+54.209.60.63 6 6 241590 20250210182815
+205.169.39.11 4 51 4804708 20250221122756
+49.13.221.172 4 52 4806422 20250221231244
+104.197.69.115 4 53 4821642 20250221122251
+144.217.135.135 1 1 204363 20250224150643
+93.159.230.85 1 1 43513 20250213233044
+62.141.44.236 2 2 51449 20250226064022
+34.221.142.31 1 1 204359 20250226221301
+109.199.118.129 1 1 43501 20250219185852
+5.133.192.168 1 2 45237 20250221011903
+5.133.192.131 1 2 45227 20250214134951
+185.247.137.27 0 1 44929 
+35.91.70.173 1 1 7936 20250201120538
+66.249.93.171 1 1 17384 20250202165158
+31.13.127.2 0 1 360 
+31.13.127.9 0 1 1006 
+160.19.92.120 1 1 32106 20250221103648
+154.28.229.53 2 2 64240 20250221123837
+15.165.158.53 2 2 2674 20250217194909
+79.231.170.18 1 1 243585 20250207122314
+31.13.115.116 1 8 411925 20250204143700
+78.47.255.104 1 12 146621 20250220232943
+87.236.176.28 0 1 44929 
+15.204.161.7 1 1 38216 20250223210336
+31.13.115.8 1 23 2969055 20250223185924
+54.189.25.56 1 1 7947 20250201120538
+5.133.192.128 1 2 12055 20250201191604
+34.213.187.189 1 1 43516 20250215135703
+31.13.115.113 0 6 419576 
+62.138.2.160 0 2 1551190 
+34.211.28.238 1 1 47911 20250203130627
+185.247.137.26 0 1 1714 
+31.13.127.18 1 9 1971771 20250227002440
+31.13.127.7 0 2 9721 
+66.249.81.38 1 1 17384 20250202155808
+54.86.66.252 1 1 38205 20250209151702
+185.247.137.127 0 1 25773 
+185.247.137.22 2 2 87026 20250214114903
+14.225.23.44 0 1 22601 
+52.37.96.37 1 1 43516 20250215135710
+87.236.176.184 0 1 1714 
+141.95.114.30 0 1 22601 
+31.13.127.1 0 5 418382 
+87.236.176.55 0 1 25773 
+62.138.18.60 0 10 1467895 
+168.151.56.34 1 1 32106 20250221103654
+184.72.121.156 0 1 46312 
+193.101.132.8 1 1 36847 20250206154801
+209.99.158.230 1 1 30358 20250221103655
+188.165.87.96 1 1 204359 20250223061542
+5.135.58.194 1 1 204359 20250223062512
+31.13.115.1 0 2 6347 
+93.158.91.19 1 2 45240 20250227113158
+154.28.229.141 1 1 32120 20250221133956
+154.28.229.204 1 1 32120 20250221123026
+157.173.122.176 1 1 43320 20250209125922
+87.236.176.127 0 1 24073 
+62.138.6.15 0 4 304320 
+54.185.248.116 1 1 43511 20250217122334
+31.13.127.10 1 15 2269832 20250227002443
+154.28.229.0 1 1 32120 20250221123607
+205.169.39.166 3 27 162884 20250221122232
+31.13.127.12 1 7 45102 20250227002444
+35.88.223.207 1 1 43516 20250215135459
+185.247.137.31 0 1 24073 
+31.13.127.11 1 7 34975 20250227002444
+66.249.81.32 1 1 17384 20250202155811
+62.138.3.52 0 9 505778 
+195.234.109.78 0 1 119168 
+31.13.115.112 1 1 1157 20250204143719
+31.13.127.116 0 3 48927 
+31.13.115.9 0 9 208562 
+31.13.115.2 0 12 44538 
+50.28.84.203 2 2 85182 20250223233433
+15.204.182.106 2 2 87046 20250223013905
+184.72.115.35 1 1 41391 20250209172323
+206.41.166.12 1 1 30756 20250221103655
+193.138.218.160 1 1 31961 20250210051707
+62.138.2.14 0 8 332962 
+31.13.127.8 0 2 6347 
+68.235.46.150 1 2 33832 20250222082135
+94.247.172.129 1 1 7947 20250201161853
+31.13.115.3 2 22 137463 20250223185925
+31.13.115.115 1 6 61209 20250223185922
+54.189.99.42 1 1 43516 20250215135532
+87.236.176.85 0 1 1714 
+178.156.160.196 1 1 32122 20250218053445
+104.194.194.135 1 1 28043 20250221103655
+31.13.115.6 1 16 1981690 20250223185925
+34.217.117.42 1 1 0 20250203130623
+54.190.19.201 1 1 43513 20250211131029
+15.204.183.221 1 1 41660 20250223204012
+154.28.229.145 1 1 32120 20250221124202
+93.158.91.13 1 2 45046 20250208040709
+66.249.93.170 1 1 17384 20250202165155
+77.74.177.118 1 1 43526 20250227224222
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20250201 4 5 35885 4
+20250202 875 2146 54582446 8
+20250203 258 392 4834558 4
+20250204 1675 5213 117567667 7
+20250205 421 783 9335297 6
+20250206 2344 6319 160142543 8
+20250207 1130 2329 36798369 4
+20250208 77 101 5944558 10
+20250209 50 52 268427 9
+20250210 9064 9849 75086098 12
+20250211 4846 5891 44216123 10
+20250212 66 118 12607024 3
+20250213 1 2 59283 1
+20250214 14 109 3878220 4
+20250215 26 31 1470893 5
+20250216 13 106 14570529 1
+20250217 3 3 46185 2
+20250218 2 2 64231 2
+20250219 1 1 43501 1
+20250220 19 30 857782 3
+20250221 27 196 14986982 15
+20250222 1 2 33832 1
+20250223 12 60 5467241 10
+20250224 1 1 204363 1
+20250225 81 81 2886391 3
+20250226 2 3 270462 2
+20250227 6 56 4917790 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 99
+15mn-30mn 1
+30s-2mn 4
+30mn-1h 9
+5mn-15mn 1
+1h+ 24
+2mn-5mn 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 248
+/wp-admin/admin-ajax.php 15721 4072399 25 31
+/ 1408 26705429 74 71
+/wp-json/gutenberg-templates/v1/blocks 163 32279479 0 0
+/wp-json/wp/v2/blocks 163 978 0 0
+/wp-admin/edit.php 140 5522361 0 0
+/wp-json/wp/v2/types 137 113805 0 0
+/wp-json/spectra/v1/editor 134 22110 0 0
+/wp-admin/post.php 122 95329109 0 0
+/wp-json/spectra/v1/all_taxonomy 105 171883 0 0
+/wp-json/wp/v2/posts 96 331297 0 0
+/wp-json/wc-admin/plugins/installed 3 378 0 0
+/product/dark-brown-jeans/ 2 84137 0 0
+/wp-json/wc-admin/plugins/install 3 382 0 0
+/wp-json/astra/v1/admin/settings/ 32 8424 0 0
+/wp-json/wp/v2/widget-types/nav_menu/encode 4 2868 0 0
+/product/dnk-black-shoes/ 2 84120 0 0
+/wp-json/zipwp/v1/get-plan-promo-dismiss-time 1 64 0 0
+/wp-json/wp/v2/widget-types/meta/encode 2 848 0 0
+/wp-json/wp/v2/block-directory/search 3 2332 0 0
+/wp-json/zipwp/v1/template-keywords 1 116 0 0
+/wp-admin/widgets.php 2 1504745 0 0
+/wp-json/wp/v2/posts/3197/autosaves 3 1909 0 0
+/product-category/womens-shoes/ 2 81628 0 2
+/wp-json/wp/v2/pages/1218/autosaves 1 608 0 0
+/wp-sitemap-posts-page-1.xml 2 632 0 0
+/wp-json/wc-analytics/orders 7 42 0 0
+/wp-json/zipwp/v1/images 2 4854 0 0
+/wp-json/wc-admin/options 31 1873 0 0
+/category/event/ 10 394710 0 1
+/wp-json/wc-analytics/data/countries 2 44726 0 0
+/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2 2 653256 0 0
+/wp-json/wp/v2/posts/3352 6 26667 0 0
+/wp-json/wp/v2/block-renderer/core/latest-comments 3 845 0 0
+/wp-json/jetpack/v4/connection/data 7 2298 0 0
+/wp-admin/customize.php 50 79448623 1 0
+/product/green-tshirt/ 2 84111 0 0
+/wp-json/wp/v2/widget-types/woocommerce_product_categories/encode 2 2036 0 0
+/wp-json/wp/v2/product 31 33025 0 0
+/wp-admin/load-scripts.php 47 1104286 0 0
+/wp-json/wp/v2/menus 1 33 0 0
+/wp-json/wp/v2/media/3214 1 1373 0 0
+/product-category/womens-shirts/ 2 81630 0 0
+/product/dnk-blue-shoes/ 2 84136 0 0
+/wp-login.php 8 20105 1 0
+/author/tea-way-homegmail-com/ 7 281954 1 1
+/wp-sitemap-posts-product-1.xml 2 944 0 0
+/wp-json/wp/v2/categories 35 3926 0 0
+/wp-json/wp/v2/widget-types/meta/render 2 49410 0 0
+/wp-json/wp/v2/widget-types/archives/encode 2 906 0 0
+/wp-json/wp/v2/media/3292 10 14770 0 0
+/wp-json/wp/v2/search 1 381 0 0
+/product-category/womens-jeans/ 2 81624 0 0
+/wp-json/wp/v2/media/52 1 1373 0 0
+/wp-json/wp/v2/media/3213 2 2885 0 0
+/wp-json/gutenberg-templates/v1/sites 79 6454072 0 0
+/wp-sitemap.xml 11 2816 5 2
+/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 1 18824 0 0
+/wp-admin/post-new.php 8 5670826 0 0
+/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff 3 24252 0 0
+/wp-json/wp/v2/widget-types/search/encode 2 1520 0 0
+/wp-json/wc-analytics/products/count-low-in-stock 7 105 0 0
+/wp-content/plugins/copy-delete-posts/assets/fonts/Montserrat-Italic.woff2 1 19660 0 0
+/wp-json/wp/v2/posts/3197 1 1531 0 0
+/wp-json/wc-analytics/admin/notes 9 4754 0 0
+/wp-json/wp/v2/media/3394 7 9942 0 0
+/store/page/2/ 1 45019 0 0
+/wp-json/wp/v2/pages/59 29 247155 0 0
+/product/maroon-tshirt/ 2 84102 0 0
+/wp-json/wp/v2/categories/1 8 2237 0 0
+/wp-json/wp/v2/users/me 20 25100 0 0
+/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2 1 146060 0 0
+/wp-json/wp/v2/navigation 2 2563 0 0
+/wp-admin/options-reading.php 8 260276 0 1
+/product/anchor-bracelet-2/ 10 452807 0 0
+/services/ 15 563506 3 1
+/wp-json/wp-block-editor/v1/navigation-fallback 1 538 0 0
+/wp-admin/plugins.php 48 4142160 0 0
+/wp-json/wp/v2/wp_pattern_category 83 525 0 0
+/contact-us/ 11 454351 1 3
+/events/ 49 1881481 6 4
+/the-presence-of-water-tea-ceremony/ 14 520577 0 1
+/wp-json/wp/v2/template-parts/twentytwentyfive/header 1 852 0 0
+/wp-admin/nav-menus.php 27 1093252 0 0
+/wp-json/wp/v2/posts/3179 23 91535 0 0
+/product-category/mens-shirts/ 3 124663 0 0
+/product-category/accessories/ 3 125648 0 0
+/wp-json/gutenberg-templates/v1/categories 82 47314 0 0
+/wp-json/wp/v2/block-patterns/patterns 26 778321 0 0
+/wp-json/wp/v2/taxonomies/product_cat 1 836 0 0
+/wp-json/wp-block-editor/v1/url-details 1 140 0 0
+/wp-json/ 83 22048 0 0
+/wp-json/wp/v2/visibility_preset 1 6 0 0
+/product/lemon-pattern-tshirt/ 3 130861 0 0
+/wp-json/zipwp/v1/user-details 1 70 0 0
+/wp-json/wp/v2/pages/3111 1 1792 0 0
+/wp-json/wp/v2/widget-types/recent-posts/render 2 49354 0 0
+/wp-json/wc/store/v1/cart 4 4252 0 0
+/wp-json/wc-analytics/admin/notes/62 1 507 0 0
+/wp-json/zipwp/v1/search-category 10 2832 0 0
+/wp-json/wp/v2/media/44 1 1467 0 0
+/wp-content/plugins/woocommerce/assets/fonts/star.woff 15 19560 0 0
+/wp-sitemap-posts-sureforms_form-1.xml 2 472 0 0
+/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2 2 107200 0 0
+/product/blue-denim-shorts/ 4 177678 0 0
+/product/basic-blue-jeans-2/ 2 84132 0 0
+/wp-admin/async-upload.php 41 38297 0 0
+/wp-json/wp/v2/pages/61/autosaves 55 384854 0 0
+/wp-json/wp/v2/posts/3179/autosaves 52 114066 0 0
+/wp-json/zipwp/v1/keywords 1 120 0 0
+/wp-json/wc-admin/onboarding/profile/progress 2 12 0 0
+/wp-json/wp/v2/media/3396 2 2848 0 0
+/wp-json/wp/v2/widget-types/recent-comments/render 2 49388 0 0
+/wp-json/uag/v1/admin/commonsettings/ 2 2992 0 0
+/wp-json/wp/v2/sidebars 2 1754 0 0
+/wp-json/wp/v2/media/3202 6 8977 0 0
+/wp-json/wc-admin/launch-your-store/initialize-coming-soon 1 8 0 0
+/wp-json/wp/v2/widget-types/recent-posts/encode 2 1048 0 0
+/product/light-brown-bag/ 2 84126 0 0
+/wp-json/wp/v2/settings 91 130090 0 0
+/wp-json/wp/v2/block-renderer/core/rss 1 336 0 0
+/product/dnk-purple-tshirt/ 2 84135 0 0
+/wp-json/wc-admin/onboarding/profile/progress/core-profiler/complete 4 448 0 0
+/wp-json/wp/v2/sidebars/header-widget 2 647 0 0
+/wp-admin/admin.php 74 3787750 1 0
+/wp-json/wp/v2/pages/3121 17 19892 0 0
+/wp-json/wp/v2/widgets 3 36298 0 0
+/account/lost-password/ 6 240298 0 3
+/wp-json/wp/v2/widget-types/woocommerce_price_filter/encode 2 418 0 0
+/product/light-blue-tshirt/ 2 84121 0 0
+/wp-json/wp/v2/pages/3105/autosaves 2 9421 0 1
+/product-category/women/ 3 123125 0 0
+/product/dark-grey-jeans/ 2 84135 0 0
+/wp-admin/options-general.php 9 510791 0 0
+/cart/ 13 840371 0 3
+/wp-json/wp/v2/widget-types/search/render 2 49873 0 0
+/wp-json/jetpack/v4/connection 3 363 0 0
+/wp-json/zipwp/v1/site-languages 1 1966 0 0
+/product/buddha-bracelet-2/ 2 84117 0 0
+/wp-json/wp/v2/ 1 12201 0 0
+/wp-sitemap-taxonomies-product_cat-1.xml 2 504 0 0
+/wp-json/wp/v2/templates 7 1107 0 0
+/product-category/purses-and-handbags/ 2 81646 0 0
+/wp-json/wc-admin/onboarding/tasks 7 8792 0 0
+/wp-json/wp/v2/pages/59/autosaves 79 593141 0 0
+/wp-admin/edit-tags.php 4 144629 0 0
+/product/black-over-the-shoulder-handbag-2/ 2 84187 0 0
+/hello-world/ 6 244483 0 0
+/product/denim-blue-jeans/ 2 84129 0 0
+/art/ 17 567597 1 1
+/wp-admin/load-styles.php 77 4397005 0 0
+/product/red-bag/ 2 84095 0 0
+/product/dnk-black-sports-shoes/ 2 84155 0 0
+/wp-content/plugins/woocommerce-menu-bar-cart/assets/fonts/WPMenuCart.woff2 1 988 0 0
+/wp-json/wp/v2/media/3128 2 2754 0 0
+/wp-json/zipwp/v1/templates 8 78432 0 0
+/wp-json/wp/v2/block-renderer/core/archives 2 212 0 0
+/product/orange-tshirt/ 2 84099 0 0
+/wp-json/wp/v2/block-patterns/categories 83 48965 0 0
+/checkout/ 2 138752 0 0
+/product-category/men/ 2 82549 0 0
+/wp-content/uploads/fonts/chalky-webfont.woff2 16 2530632 2 2
+/wp-json/wp/v2/widget-types/nav_menu/render 4 98901 0 0
+/product-category/mens-jeans/ 2 81622 0 0
+/second-article/ 3 123193 0 0
+/wp-json/wp/v2/taxonomies/post_tag 8 6192 0 0
+/wp-admin/update-core.php 10 282764 0 0
+/wp-json/wp/v2/pages/61 24 157461 0 0
+/second-event/ 11 469029 0 0
+/wp-json/wp/v2/widget-types/categories/encode 2 1084 0 0
+/wp-json/wp/v2/posts/3352/autosaves 13 52010 0 0
+/wp-admin/themes.php 12 1908873 0 0
+/wp-content/plugins/copy-delete-posts/assets/fonts/Montserrat-Regular.woff2 2 38344 0 0
+/wp-json/wp/v2/widget-types/woocommerce_product_categories/render 2 49586 0 0
+/wp-json/wp/v2/posts/ 7 20454 0 0
+/product/dnk-blue-tshirt/ 5 223780 0 0
+/wp-json/wc-admin/onboarding/free-extensions 3 3951 0 0
+/wp-json/wp/v2/users/1 79 4850 0 0
+/this-is-going-to-be-the-3rd-article/ 2 85807 1 1
+/wp-json/wp/v2/types/post 1 988 0 0
+/wp-json/wp/v2/media/3151 5 6375 0 0
+/wp-json/wp/v2/template-parts 12 6480 0 0
+/product/golden-bag-with-chain/ 2 84153 0 0
+/wp-admin/about.php 1 34254 0 0
+/wp-json/wc-analytics/settings/products/batch 1 329 0 0
+/wp-content/plugins/copy-delete-posts/assets/fonts/Montserrat-ExtraBold.woff2 1 19440 0 0
+/wp-json/wp/v2/pages/ 10 25120 0 0
+/wp-json/wc-analytics/settings/general/batch 1 26338 0 0
+/blog/ 39 1662678 6 5
+/wp-content/plugins/astra-addon/assets/fonts/astra-font-icons.ttf 1 638 0 0
+/fall-season-tea-tasting-yoga-workshop/ 19 713414 0 1
+/wp-json/wp/v2/template-parts/twentytwentyfive/footer 1 1355 0 0
+/wp-json/wp/v2/media/3130 7 8934 0 0
+/account/ 10 351730 1 1
+/product/dnk-red-sports-shoes/ 2 84141 0 0
+/wp-json/wp/v2/pages 19 149090 0 0
+/product/dnk-blue-sport-shoes-2/ 2 84169 0 0
+/about/ 70 2803700 2 1
+/wp-json/wc-admin/plugins/activate 3 573 0 0
+/wp-json/wp/v2/tags 2 12 0 0
+/wp-json/batch/v1 2 566 0 0
+/store/ 49 2168360 5 3
+/wp-content/plugins/copy-delete-posts/assets/fonts/Montserrat-ExtraLight.woff2 1 18968 0 0
+/wp-json/block-visibility/v1/settings 3 1323 0 0
+/wp-json/wp/v2/posts/3285 17 82101 0 0
+/wp-admin/ 24 1030686 4 1
+/wp-admin/index.php 14 648501 0 0
+/product/boho-bangle-bracelet-2/ 2 84141 0 0
+/wp-json/wp/v2/media/3198 2 3010 0 0
+/wp-json/wc-admin/onboarding/plugins/jetpack-authorization-url 1 517 0 0
+/wp-json/wp/v2/taxonomies/category 35 28665 0 0
+/category/blogpost/ 2 86700 1 1
+/wp-json/wp/v2/pages/3123 2 2335 0 0
+/wp-json/wp/v2/taxonomies/product_tag 1 789 0 0
+/wp-admin/plugin-install.php 18 582527 0 0
+/wp-json/wp/v2/media/3116 3 4482 0 0
+/wp-json/wc-admin/onboarding/profile 5 666 0 0
+/wp-sitemap-users-1.xml 2 390 1 0
+/wp-sitemap-taxonomies-category-1.xml 2 368 0 0
+/wp-json/wc-admin/plugins/active 3 340 0 0
+/wp-json/wp/v2/posts/1 3 4542 0 0
+/wp-json/nps-survey/v1/dismiss-nps-survey 2 72 0 0
+/wp-json/wp/v2/widget-types/woocommerce_top_rated_products/encode 2 710 0 0
+/wp-sitemap-posts-post-1.xml 2 624 0 0
+/wp-json/block-visibility/v1/variables 3 1087 0 0
+/product/faint-blue-jeans/ 2 84124 0 0
+/wp-json/gutenberg-templates/v1/setup 82 2871 0 0
+/product-category/mens-shoes/ 2 81616 0 0
+/wp-json/wp/v2/widget-types/archives/render 2 49209 0 0
+/wp-json/wp/v2/posts/3285/autosaves 36 136076 0 0
+/wp-json/wp/v2/pages/3231 1 1153 0 0
+/wp-json/wc-analytics/admin/notes/62/action/1301 1 507 0 0
+/wp-admin/update.php 7 178541 0 0
+/wp-json/wp/v2/widget-types 50 68476 0 0
+/wp-json/wp/v2/pages/3105 2 18834 0 0
+/wp-json/wc-analytics/products/reviews 7 42 0 0
+/wp-json/wp/v2/users 84 4874 0 0
+/wp-json/wp/v2/media 4 10292 0 0
+/wp-json/wp/v2/block-renderer/woocommerce/product-categories 1 468 0 0
+/wp-json/siteground-central/v1/dashboard 1 1791 0 0
+/wp-json/wp/v2/taxonomies 91 142282 0 0
+/wp-json/wp/v2/widget-types/recent-comments/encode 2 994 0 0
+/wp-json/wc-analytics/reports/performance-indicators 2 372 0 0
+/wp-json/wp/v2/posts/3154 2 2759 0 0
+/wp-json/wp/v2/posts/1/autosaves 1 697 0 0
+/wp-json/wp/v2/widget-types/categories/render 2 49286 0 0
+/i-am-the-first-event/ 21 859896 0 0
+/el-despertar-de-la-primvera-y-el-ascenso-de-la-energia-yang/ 15 527090 0 0
+/wp-admin/site-editor.php 2 296754 0 0
+END_SIDER

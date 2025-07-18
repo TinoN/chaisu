@@ -1,0 +1,618 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202505 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.chaisu.de.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1992                
+POS_TIME 2667                
+POS_VISITOR 9246                
+POS_DAY 14559               
+POS_DOMAIN 3541                
+POS_LOGIN 4027                
+POS_ROBOT 4182                
+POS_WORMS 5130                
+POS_EMAILSENDER 5261                
+POS_EMAILRECEIVER 5404                
+POS_SESSION 15341               
+POS_SIDER 15547               
+POS_FILETYPES 5539                
+POS_DOWNLOADS 5852                
+POS_OS 5900                
+POS_BROWSER 6082                
+POS_SCREENSIZE 7030                
+POS_UNKNOWNREFERER 7104                
+POS_UNKNOWNREFERERBROWSER 7348                
+POS_ORIGIN 7486                
+POS_SEREFERRALS 7626                
+POS_PAGEREFS 7770                
+POS_SEARCHWORDS 7946                
+POS_KEYWORDS 8098                
+POS_MISC 2331                
+POS_ERRORS 8157                
+POS_CLUSTER 3883                
+POS_SIDER_404 8334                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250601004140 7760 2296321 13268284540216
+FirstTime 0
+LastTime 20250531205909
+LastUpdate 20250601042819 7760 7721 32 0 6
+TotalVisits 127                 
+TotalUnique 109                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 143                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 8 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 404 430 1106575 212 239 1290496
+1 632 637 616763 199 252 905848
+2 438 682 9242986 152 177 619309
+3 13 93 894037 67 80 466325
+4 4 5 80666 265 280 1123606
+5 17 112 13264097 501 521 5594346
+6 7 7 223607 87 105 4600944
+7 59 91 25839309 86 100 1043616
+8 10 12 399395 98 107 673740
+9 4 4 2076522 176 202 957434
+10 11 12 358055 79 88 312762
+11 6 55 5135749 97 206 8741699
+12 5 5 224348 122 151 741331
+13 7 55 2904069 102 132 786242
+14 1 1 44840 84 97 1039071
+15 5 55 5130357 78 147 7084292
+16 0 0 0 131 155 497771
+17 13 62 5401968 134 266 10127918
+18 21 99 11818946 149 297 2331138
+19 11 11 446409 113 145 4990316
+20 82 93 9159904 154 212 4448176
+21 55 246 23260957 115 176 11138747
+22 25 106 1620681 134 291 1759148
+23 43 322 26358103 105 140 5664698
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 17
+hk 851 982 45156465
+cn 505 976 30563952
+fr 175 189 13217463
+us 161 570 16494796
+in 112 112 4030
+de 27 114 17249352
+se 13 65 5422731
+ru 6 54 5008705
+tr 5 58 5037986
+ca 5 53 5089169
+vn 1 1 2668
+bg 2 2 1828102
+gb 3 8 256848
+ph 1 1 44859
+lv 2 2 44871
+bz 1 2 46591
+nl 3 6 139755
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 21
+wordpress 1727 587967 20250531215548 0
+AhrefsBot/ 709 21676165 20250531160206 54
+Googlebot/ 504 3056840 20250530184146 18
+SemrushBot/ 116 2447199 20250530084210 43
+unknown 97 16199 20250527001151 97
+YandexBot/ 91 1682752 20250531053603 36
+bingbot/ 90 1209440 20250531205440 16
+facebookexternalhit/ 82 17063969 20250531215548 48
+dataprovider\.com 64 6935463 20250524115124 1
+YandexImages/ 27 13457552 20250531004045 0
+checker 4 179394 20250514175145 0
+curl 1 97751 20250524191439 0
+python 3 45031 20250522215250 1
+Apache\-HttpClient/ 3 89921 20250515200645 1
+bot[\s_+:,\.\;\/\\-] 4 90032 20250513104706 2
+crawl 4 179456 20250516132331 0
+Googlebot\-Image/ 12 159822 20250527044454 0
+core 3 618835 20250528044026 0
+no_user_agent 2 417844 20250526085809 0
+nutch 6 90400 20250528123029 4
+yandex 3 29201 20250528104942 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+gif 2 22774 0 0
+xml 8 2281 0 0
+jpg 18 8958042 0 0
+png 151 102846439 0 0
+woff2 24 4320664 0 0
+js 686 6711778 0 0
+php 1378 1071856 0 0
+jpeg 40 4602282 0 0
+Unknown 64 628695 0 0
+woff 1 8084 0 0
+svg 5 5113 0 0
+css 420 1728516 0 0
+html 398 14701819 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+ios_iphone 45 5
+linuxandroid 537 141
+Unknown 33 8
+macosx9 2 2
+win8.1 1 1
+macosx 142 74
+win10 1981 1482
+linux 454 160
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 43
+Unknown 22 6
+chrome128.0.0.0 49 2
+chrome100.0.4896.127 2 2
+chrome88.0.4324.104 1 0
+chrome136.0.0.0 324 42
+firefox115 1 1
+chrome115.0.0.0 3 3
+firefox126.0 1 1
+opera80.4.4244.7786 1 1
+chrome114.0.5735.199 1 1
+chrome114.0.0.0 2 2
+firefox136.0 3 2
+chrome136.0.7103.60 155 80
+opera118.0.0.0 52 4
+chrome85.0.4183.121 1 1
+netscape5.0 3 3
+chrome131.0.0.0 79 70
+chrome135.0.7049.111 46 9
+mozilla 11 2
+chrome117.0.5938.132 52 4
+chrome83.0.4103.97 3 3
+chrome91.0.4472.114 4 4
+firefox128.0 1 1
+chrome105.0.0.0 6 3
+chrome109.0.0.0 1 1
+chrome116.0.0.0 116 15
+chrome104.0.0.0 5 5
+chrome135.0.0.0 8 4
+firefox120.0 1 1
+chrome124.0.0.0 112 112
+chrome90.0.4430.93 52 4
+chrome125.0.0.0 53 4
+safari13.1.2 44 4
+chrome134.0.0.0 267 27
+safari 1 1
+chrome115.0.5790.171 1 1
+chrome133.0.6943.122 1 1
+chrome110.0.0.0 2 2
+chrome127.0.0.0 1 1
+chrome107.0.0.0 8 2
+chrome80.0.3987.162 1 1
+firefox138.0 1693 1440
+firefox103.0 5 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+GuzzleHttp/7 20250529020007
+okhttp/4.9.2 20250511002537
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250520013953
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+okhttp/4.9.2 20250511002537
+GuzzleHttp/7 20250529020007
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 282 334
+From1 0 0
+From2 0 0
+From3 4 4
+From4 1587 2857
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://l.instagram.com 4 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+403 1 75193
+301 101 350
+404 49 3791993
+499 165 0
+503 34 1705326
+400 630 877
+302 23 1233875
+405 3 111
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 18
+/favicon.png 4 -
+/shop/ 2 -
+/ads.txt 7 -
+/.well-known/hosting-provider 2 http://chaisu.de/.well-known/hosting-provider
+/wp-content/uploads/2024/10/chaisu_logo_vertical-160x53.png 7 -
+/hello-world/ 2 -
+/llms.txt 1 -
+/humans.txt 1 -
+/wp-content/themes/motors/assets/css/iconset-default.css 1 -
+/security.txt 1 -
+/sitemap_index.xml 5 -
+/.well-known/security.txt 2 -
+/sitemap 1 -
+/wp-content/plugins/wordpress-core/wordpress-core.php 1 -
+/sitemaps.xml 6 -
+/wp-json/custom/v1/ 3 -
+/wp-content/plugins/wordpress-corde/wordpresse-kore.php 1 -
+/wp-content/plugins/wp-event-solution/assets/css/etn-icon.css 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 143
+43.252.208.63 264 264 4752 20250529010554
+103.40.79.167 215 215 3870 20250528010739
+103.129.54.31 209 445 5534993 20250527022353
+103.129.54.27 148 148 2664 20250529014720
+165.154.157.74 145 145 2610 20250528015029
+43.252.208.61 114 114 2703 20250529002244
+103.129.54.29 111 111 1998 20250529012551
+43.249.50.223 110 110 3926 20250528020016
+154.84.135.35 96 96 7968 20250527023853
+85.25.210.23 62 71 7998953 20250515200851
+173.252.87.25 0 1 4604 
+149.57.180.106 1 1 44861 20250528123520
+62.141.44.236 1 1 44850 20250519091451
+185.247.137.100 0 1 24073 
+174.138.2.147 1 2 46591 20250508084404
+51.158.160.124 1 1 44868 20250514170354
+173.252.127.14 0 2 6451 
+186.179.39.241 0 1 25773 
+173.252.87.8 0 5 1919917 
+103.129.54.57 6 54 8217931 20250516214012
+170.247.222.5 1 2 46591 20250508001512
+31.13.115.112 1 6 2254928 20250519235658
+31.13.115.115 0 3 8476 
+44.203.232.234 2 2 66364 20250510061051
+168.151.56.36 1 1 31296 20250516102912
+205.169.39.53 4 52 4880312 20250513115153
+186.179.59.247 1 2 70650 20250508002145
+43.249.50.225 1 1 52 20250529055210
+54.174.140.70 3 15 294360 20250511002535
+173.252.127.36 1 22 2533700 20250516150536
+185.176.220.76 2 2 44871 20250511213644
+31.13.115.9 1 4 57121 20250519235655
+101.44.80.236 7 55 8271959 20250516211949
+85.254.43.231 1 1 33181 20250516102909
+62.138.18.60 0 2 47177 
+31.13.115.2 0 8 26166 
+87.236.176.246 0 1 24073 
+64.140.131.87 1 1 31826 20250516102910
+185.247.137.27 1 1 44870 20250520001239
+94.247.172.129 2 2 89731 20250512223635
+173.252.87.6 0 5 7916 
+138.199.146.38 2 2 415248 20250529020007
+93.158.90.35 1 1 44866 20250501084155
+31.13.115.10 1 9 69367 20250519235659
+103.97.2.20 8 8 133441 20250527071133
+93.158.91.19 1 2 46582 20250522211141
+149.57.191.58 1 1 44868 20250522213716
+173.252.87.23 0 1 2276 
+128.199.13.215 1 2 46578 20250522080438
+144.217.135.244 1 1 208857 20250524115053
+173.252.127.13 1 1 33181 20250516150528
+185.247.137.81 0 1 44929 
+43.252.208.138 4 54 5114831 20250517052702
+62.138.3.52 18 18 772125 20250511222747
+5.133.192.88 1 2 46584 20250515104538
+149.57.191.236 4 43 402218 20250522232615
+43.252.208.62 21 21 378 20250529010929
+62.138.6.15 57 60 2768923 20250527002104
+173.252.127.4 0 3 77085 
+37.4.249.122 4 43 7962553 20250517050931
+149.57.176.224 4 45 404533 20250522225602
+64.43.116.7 0 1 24073 
+173.252.87.113 0 1 536965 
+185.247.137.45 0 1 1714 
+38.60.208.11 4 52 4918972 20250511235238
+173.252.87.10 0 1 333557 
+173.252.87.115 0 1 1006 
+209.99.178.134 1 1 32384 20250516102911
+103.97.2.19 46 65 25100084 20250527071528
+164.92.209.17 1 2 46584 20250527053153
+173.252.87.112 0 2 3866 
+185.247.137.218 0 1 1714 
+162.0.232.211 2 2 33635 20250521062317
+54.213.46.99 1 1 44869 20250525125907
+173.252.87.116 0 2 6451 
+101.44.81.251 3 3 35546 20250517041538
+173.252.87.29 1 3 180211 20250529174036
+157.173.122.176 1 1 44850 20250511130821
+173.252.87.9 0 1 1537476 
+35.163.48.222 1 1 208868 20250530093032
+168.151.93.170 1 1 30807 20250516102910
+34.216.10.164 2 49 2184102 20250511235220
+95.37.202.53 4 52 4918972 20250511235721
+31.13.115.8 1 15 2468866 20250519235659
+87.236.176.102 0 1 44929 
+93.123.109.182 1 1 1783254 20250530095023
+173.252.127.2 1 2 4797 20250516150536
+173.252.87.4 0 2 208139 
+93.158.90.66 1 1 44878 20250507120921
+167.99.88.20 1 2 46580 20250524075614
+149.57.191.101 4 43 400526 20250523032912
+54.203.69.164 1 1 208857 20250523011319
+120.28.138.1 1 1 44859 20250530060135
+64.140.136.169 1 1 29023 20250516102911
+173.252.87.12 0 1 1007 
+31.13.115.4 0 8 128841 
+44.223.84.52 3 3 99543 20250522234844
+106.60.48.138 4 52 2792837 20250519135836
+3.220.101.67 1 5 98130 20250508003134
+103.167.134.61 1 13 437303 20250526071822
+141.164.90.5 4 45 409425 20250522215228
+87.236.176.58 0 1 25773 
+103.223.122.170 8 15 3134389 20250518025823
+192.36.226.103 1 1 44867 20250517220418
+173.252.87.16 1 7 66478 20250529174029
+103.90.232.143 1 1 2668 20250523001517
+173.252.87.5 1 4 38248 20250529174040
+103.97.2.167 9 46 11060456 20250504182225
+93.158.91.11 1 2 46592 20250507214538
+87.236.176.186 1 1 44870 20250520013952
+113.103.6.36 4 44 407714 20250512184052
+173.252.87.24 1 9 79696 20250529174040
+54.38.154.186 1 1 208811 20250527012925
+87.236.176.13 0 1 25773 
+103.223.122.250 4 9 53609 20250529054959
+45.41.141.21 1 1 30699 20250516102911
+93.230.149.13 10 58 8307508 20250516233048
+64.140.139.248 1 1 30558 20250516102911
+68.234.46.143 0 1 3220 
+216.213.29.143 4 43 403370 20250522224117
+109.199.118.129 1 1 44848 20250503175204
+43.249.50.224 1 1 52 20250529055010
+103.129.54.60 7 58 5168305 20250516214526
+103.129.54.61 6 6 130005 20250516214336
+93.159.230.28 2 2 89733 20250522211613
+192.36.109.84 1 1 44866 20250512081033
+173.252.127.114 1 24 2430279 20250516150533
+128.199.58.108 1 2 46580 20250513111300
+103.223.122.193 12 13 108039 20250518030015
+45.67.143.84 1 1 28516 20250516102911
+132.255.133.187 0 1 24073 
+173.252.87.13 0 1 360 
+209.99.139.254 1 1 33180 20250514214040
+54.245.172.102 1 1 44869 20250525125223
+193.101.132.8 8 8 265542 20250531205909
+149.57.191.88 4 45 408468 20250523032924
+173.252.87.28 0 6 85693 
+185.247.137.224 0 1 1714 
+217.160.202.182 1 1 44840 20250528144934
+170.178.154.211 1 1 33181 20250516102901
+44.243.170.117 1 1 44871 20250519125929
+62.138.2.214 37 37 1585417 20250507095519
+191.102.179.76 0 1 1714 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20250501 14 15 635283 2
+20250502 6 6 247451 2
+20250503 1 1 44848 1
+20250504 11 48 11126848 2
+20250506 3 3 154642 3
+20250507 18 19 753807 5
+20250508 5 16 382460 5
+20250509 2 10 196236 1
+20250510 4 4 132754 2
+20250511 32 179 12982016 7
+20250512 6 46 497447 3
+20250513 5 54 4926892 2
+20250514 2 2 78048 2
+20250515 63 73 8045537 2
+20250516 70 318 36717332 21
+20250517 14 103 13224179 5
+20250518 20 28 3242428 2
+20250519 10 107 7896323 7
+20250520 2 11 284432 2
+20250521 21 22 828407 2
+20250522 23 185 1901985 9
+20250523 10 90 1020519 4
+20250524 2 3 255437 2
+20250525 2 2 89738 2
+20250526 17 29 1129268 2
+20250527 363 619 31112018 7
+20250528 580 580 102702 6
+20250529 562 616 5492727 13
+20250530 3 3 2036981 3
+20250531 2 3 69598 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 8
+1h+ 7
+5mn-15mn 5
+15mn-30mn 5
+0s-30s 97
+2mn-5mn 2
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 87
+/wp-admin/admin-ajax.php 1370 42771 13 14
+/ 193 4629134 85 77
+/wp-json/spectra/v1/all_taxonomy 46 75440 0 0
+/wp-content/uploads/fonts/chalky-webfont.woff2 22 3847976 3 4
+/fall-season-tea-tasting-yoga-workshop/ 17 613605 0 2
+/el-despertar-de-la-primvera-y-el-ascenso-de-la-energia-yang/ 13 490196 1 3
+/about/ 12 469826 2 2
+/blog/ 12 451871 2 1
+/the-presence-of-water-tea-ceremony/ 12 453620 1 2
+/contact-us/ 11 594423 3 2
+/wp-json/gutenberg-templates/v1/sites 1 83675 0 0
+/product/dnk-red-sports-shoes/ 1 42639 0 0
+/services/ 9 334599 4 1
+/wp-json/wp/v2/pages/3121/autosaves 2 2344 0 0
+/wp-admin/load-styles.php 1 166052 0 0
+/wp-sitemap-users-1.xml 1 195 1 0
+/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff 1 8084 0 0
+/product/dnk-purple-tshirt/ 1 42637 0 0
+/wp-json/wp/v2/settings 1 1572 0 0
+/wp-sitemap-posts-page-1.xml 1 350 0 0
+/author/tea-way-homegmail-com/ 8 325251 0 1
+/product/buddha-bracelet-2/ 1 42627 0 0
+/product-category/purses-and-handbags/ 1 41367 0 0
+/account/ 8 308957 0 0
+/product/maroon-tshirt/ 1 42606 0 0
+/wp-json/wp/v2/templates 1 6 0 0
+/product/dark-brown-jeans/ 1 42636 0 0
+/wp-sitemap-posts-sureforms_form-1.xml 1 236 0 0
+/product/red-bag/ 1 42596 0 0
+/product-category/mens-shoes/ 1 41365 0 0
+/wp-json/gutenberg-templates/v1/setup 1 35 0 0
+/product/blue-denim-shorts/ 1 42634 0 0
+/product-category/men/ 1 41826 0 0
+/product/orange-tshirt/ 1 42619 0 0
+/product/dnk-black-shoes/ 1 42627 0 0
+/product/faint-blue-jeans/ 1 42630 0 0
+/wp-json/gutenberg-templates/v1/blocks 2 449766 0 0
+/wp-json/spectra/v1/editor 1 165 0 0
+/wp-json/ 1 1783254 1 1
+/water-tea-ceremony-chaisu/ 10 365397 1 2
+/product/black-over-the-shoulder-handbag-2/ 1 42665 0 0
+/product/green-tshirt/ 1 42624 0 0
+/wp-login.php 3 7699 2 2
+/product/denim-blue-jeans/ 1 42637 0 0
+/product/basic-blue-jeans-2/ 1 42615 0 0
+/product/anchor-bracelet-2/ 1 42628 0 0
+/wp-admin/load-scripts.php 2 35911 0 0
+/product/boho-bangle-bracelet-2/ 1 42650 0 0
+/product/lemon-pattern-tshirt/ 1 42631 0 0
+/product-category/mens-jeans/ 1 41365 0 0
+/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2 1 326628 0 0
+/wp-json/gutenberg-templates/v1/categories 1 577 0 0
+/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2 1 146060 0 0
+/product/dark-grey-jeans/ 1 42636 0 0
+/product/dnk-black-sports-shoes/ 1 42647 0 0
+/store/ 8 324091 1 1
+/product-category/accessories/ 1 41354 0 0
+/product-category/women/ 1 41829 0 0
+/art/ 9 328623 1 1
+/wp-sitemap.xml 1 247 0 0
+/wp-json/wp/v2/users/1 1 44 0 0
+/wp-sitemap-taxonomies-product_cat-1.xml 1 252 0 0
+/wp-sitemap-taxonomies-category-1.xml 1 194 0 0
+/wp-admin/post.php 1 818966 1 0
+/product/light-blue-tshirt/ 1 42629 0 0
+/product-category/womens-shirts/ 1 41369 0 0
+/wp-json/wp/v2/posts 2 13370 0 0
+/category/blogpost/ 8 316368 2 6
+/category/event/ 7 280220 0 0
+/account/lost-password/ 7 284095 1 1
+/index.php 1 457 0 1
+/wp-json/wp/v2/blocks 2 12 0 0
+/cart/ 8 504953 1 1
+/product/dnk-blue-shoes/ 1 42631 0 0
+/product-category/mens-shirts/ 1 41364 0 0
+/wp-sitemap-posts-post-1.xml 1 335 0 0
+/wp-json/wp/v2/users 1 46 0 0
+/product-category/womens-jeans/ 1 41368 0 0
+/product-category/womens-shoes/ 1 41370 0 1
+/wp-json/wp/v2/wp_pattern_category 1 6 0 0
+/product/dnk-blue-tshirt/ 1 42635 0 0
+/product/light-brown-bag/ 1 42630 0 0
+/product/golden-bag-with-chain/ 1 42650 0 0
+/wp-sitemap-posts-product-1.xml 1 472 0 0
+/events/ 10 362949 1 1
+/wp-json/wp/v2/taxonomies 1 1637 0 0
+/product/dnk-blue-sport-shoes-2/ 1 42651 0 0
+END_SIDER

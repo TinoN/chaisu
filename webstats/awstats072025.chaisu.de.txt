@@ -1,0 +1,453 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202507 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.chaisu.de.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1992                
+POS_TIME 2673                
+POS_VISITOR 8380                
+POS_DAY 10962               
+POS_DOMAIN 3436                
+POS_LOGIN 3842                
+POS_ROBOT 3997                
+POS_WORMS 4721                
+POS_EMAILSENDER 4852                
+POS_EMAILRECEIVER 4995                
+POS_SESSION 11437               
+POS_SIDER 11611               
+POS_FILETYPES 5130                
+POS_DOWNLOADS 5401                
+POS_OS 5449                
+POS_BROWSER 5635                
+POS_SCREENSIZE 6306                
+POS_UNKNOWNREFERER 6380                
+POS_UNKNOWNREFERERBROWSER 6638                
+POS_ORIGIN 6768                
+POS_SEREFERRALS 6906                
+POS_PAGEREFS 7050                
+POS_SEARCHWORDS 7226                
+POS_KEYWORDS 7378                
+POS_MISC 2337                
+POS_ERRORS 7437                
+POS_CLUSTER 3698                
+POS_SIDER_404 7603                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250718032846 26967 8136969 0
+FirstTime 20250701003215
+LastTime 20250718032846
+LastUpdate 20250718043135 26967 25959 160 0 848
+TotalVisits 64                  
+TotalUnique 55                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 64                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 5 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 27 91 2917910 51 67 436097
+1 85 88 432879 47 62 314409
+2 3 8 3946938 19 23 140870
+3 9 35 694660 42 85 2756878
+4 0 0 0 36 49 220586
+5 1 26 269317 17 69 359742
+6 10 22 309082 13 16 66982
+7 4 39 628358 15 17 67583
+8 1 2 39588 40 89 332750
+9 3 3 233921 17 45 6060658
+10 3 3 94122 11 12 76334
+11 0 0 0 20 51 636864
+12 0 0 0 52 56 114618
+13 6 36 1009134 17 25 284926
+14 0 0 0 22 81 1998502
+15 4 5 252000 82 113 1108641
+16 3 38 4117667 66 81 267335
+17 0 0 0 14 21 64095
+18 3 4 450321 35 47 392595
+19 8 9 261638 43 54 553206
+20 21 53 2235257 75 128 666130
+21 15 17 2158940 45 83 452169
+22 23 36 794427 26 32 310805
+23 8 9 650529 25 40 190710
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 13
+hk 96 155 2426915
+fr 52 58 4130667
+us 50 149 6693977
+de 17 111 6822941
+se 6 9 229123
+th 5 13 584752
+ca 3 4 234420
+bg 2 2 75706
+ru 2 2 72483
+gb 1 1 28124
+mt 1 1 34609
+tr 1 17 123383
+nl 1 2 39588
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+wordpress 522 256683 20250718032637 0
+Googlebot/ 265 1783192 20250716154809 17
+SemrushBot/ 75 1626074 20250713044715 32
+AhrefsBot/ 65 679535 20250717200338 18
+bingbot/ 47 1057008 20250717163651 10
+dataprovider\.com 37 1653547 20250717035025 2
+unknown 35 4554 20250717201827 35
+YandexBot/ 26 316050 20250717192718 14
+facebookexternalhit/ 26 502966 20250717145923 23
+nutch 6 73043 20250717194742 4
+yandex 2 39379 20250715184711 0
+bot[\s_+:,\.\;\/\\-] 5 100679 20250716011530 2
+python 1 28124 20250713074027 0
+Googlebot\-Image/ 4 53274 20250705011519 0
+YandexImages/ 6 5808251 20250714092052 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+Unknown 21 567723 0 0
+css 98 380469 0 0
+jpg 4 1185240 0 0
+html 137 5351705 0 0
+php 73 907482 0 0
+jpeg 12 1266593 0 0
+js 121 687599 0 0
+gif 1 15238 0 0
+svg 5 10488 0 0
+woff2 6 986352 0 0
+png 46 10137799 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+unix 1 1
+macosx10 2 2
+linuxandroid 17 9
+macosx9 1 1
+macosx 124 29
+Unknown 8 6
+ios_iphone 34 5
+win10 216 116
+linux 121 68
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 32
+chrome137.0.0.0 46 5
+chrome106.0.0.0 1 1
+chrome110.0.0.0 2 2
+netscape5.0 1 1
+chrome83.0.4103.97 2 2
+Unknown 4 2
+chrome91.0.4472.114 2 2
+firefox140.0 155 96
+chrome134.0.0.0 55 5
+chrome84.0.4147.105 1 1
+chrome130.0.0.0 1 1
+firefox123 1 1
+chrome116.0.0.0 3 3
+mozilla 4 4
+safari 1 1
+chrome131.0.0.0 56 32
+chrome138.0.0.0 32 2
+safari17.1.2 1 1
+chrome115.0.5790.171 2 2
+safari8.0 2 2
+chrome105.0.0.0 6 3
+firefox103.0 6 0
+chrome138.0.7204.32 8 5
+android 5 0
+chrome115.0.0.0 2 2
+chrome124.0.0.0 52 52
+firefox137.0 2 1
+chrome114.0.5735.199 1 1
+safari18.5 32 3
+chrome85.0.4183.121 1 1
+chrome80.0.3987.162 1 1
+chrome122.0.0.0 36 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Ruby 20250705155944
+GuzzleHttp/7 20250711233428
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko;_compatible;_Claude-User/1.0;__Claude-User@anthropic.com) 20250717202602
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Ruby 20250705155944
+GuzzleHttp/7 20250711233428
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 127 165
+From1 0 0
+From2 0 0
+From3 1 1
+From4 109 358
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://l.instagram.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+302 10 608906
+499 97 0
+403 1 67
+405 1 53
+301 56 245
+404 36 2384363
+500 1 97
+503 17 897370
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 17
+/.well-known/hosting-provider 1 http://chaisu.de/.well-known/hosting-provider
+/wp-sitemap.xml 4 -
+/blog 2 -
+/humans.txt 1 -
+/security.txt 1 -
+/ads.txt 1 -
+/blog/ 11 -
+/sitemaps.xml 2 -
+/sitemap_index.xml 2 -
+/llms.txt 1 -
+/art/ 1 -
+/wp-content/plugins/wp-event-solution/assets/css/etn-icon.css 1 -
+/meta.json 2 -
+/wp-content/plugins/wp-file-upload/css/wordpress_file_upload_style.css 1 -
+/sitemap.txt 2 -
+/water-tea-ceremony-chaisu/ 2 -
+/.well-known/security.txt 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 64
+47.57.180.244 96 155 2426915 20250701010421
+62.138.6.15 52 54 2309697 20250713233314
+193.101.132.8 6 6 168756 20250713105852
+23.81.69.23 5 11 154540 20250704224738
+58.136.114.28 5 13 584752 20250701010848
+172.110.147.189 5 11 154541 20250713063700
+23.80.141.73 5 11 154540 20250704223528
+172.241.94.71 5 11 154541 20250713065038
+40.160.21.14 3 3 97683 20250718032444 20250718032440 /tea-services/
+138.199.36.160 3 38 4117667 20250716162142
+45.55.87.95 1 2 39588 20250707071803
+62.138.2.14 0 1 1537476 
+67.22.62.15 1 1 25747 20250716011529
+104.248.83.198 1 2 39588 20250708030915
+93.159.230.84 1 1 37874 20250703212214
+88.230.178.194 1 17 123383 20250713075609
+149.57.176.104 1 26 288577 20250701035502
+94.247.172.129 1 1 37874 20250712105055
+93.158.92.13 1 1 37874 20250710200207
+64.140.136.239 1 1 24243 20250716011533
+85.254.40.82 1 1 25747 20250716011526
+5.133.192.136 1 2 36323 20250717134709
+93.159.230.85 1 1 34609 20250717231347
+85.254.40.202 1 1 25220 20250716011530
+178.156.153.197 1 1 25760 20250718023431 20250718023431 /
+93.158.91.19 1 2 39588 20250702025039
+192.171.92.27 1 26 269317 20250715050740
+45.131.218.0 1 1 28124 20250704153103
+34.34.241.27 1 1 36252 20250717202602
+44.244.237.161 1 1 177661 20250702072121
+54.209.60.63 0 1 64674 
+44.246.143.166 0 1 333557 
+64.140.131.115 1 1 27157 20250716011533
+138.199.162.213 2 2 368623 20250711233428
+206.41.170.151 1 1 26217 20250716011530
+15.204.182.106 2 2 69226 20250717034805
+15.204.161.7 1 1 36244 20250718032846 20250718032846 /about/
+172.74.139.77 1 19 287726 20250713075620
+62.138.2.214 0 1 106794 
+192.36.109.114 1 1 37876 20250704130538
+85.254.7.88 1 1 23152 20250716011530
+62.138.3.52 0 1 13714 
+34.34.241.36 1 1 34749 20250717202525
+54.184.162.48 1 1 37874 20250706130520
+44.248.152.100 0 1 1537476 
+54.175.74.27 2 3 203782 20250705154343
+34.208.93.57 1 1 37874 20250706130518
+2.213.60.170 1 1 0 20250701204356
+141.138.208.43 1 1 34609 20250716231054
+34.34.241.17 2 2 65621 20250717202559
+144.217.135.236 1 1 160223 20250717034958
+104.194.194.55 1 1 44557 20250716011533
+138.199.36.161 2 32 1282948 20250717202147
+52.33.126.127 1 1 177661 20250714090743
+93.158.91.11 1 2 39588 20250709221120
+160.19.92.206 1 1 44557 20250716011533
+35.94.23.145 0 1 77083 
+62.138.2.160 0 1 162986 
+15.204.183.221 1 1 37728 20250718032637 20250718032637 /contact-us/
+167.99.187.23 1 2 39588 20250705084148
+205.169.39.17 1 1 34609 20250716011552
+109.199.118.129 2 2 75706 20250714234052
+2.213.39.165 2 31 859187 20250705133014
+18.236.158.125 0 1 1898865 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 18
+20250701 105 197 3356504 5
+20250702 2 3 217249 2
+20250703 18 21 1157886 3
+20250704 13 26 475908 5
+20250705 5 36 1104256 4
+20250706 2 2 75748 2
+20250707 1 2 39588 1
+20250708 20 22 861246 3
+20250709 2 3 77504 2
+20250710 1 1 37874 1
+20250711 2 2 368623 1
+20250712 1 1 37874 1
+20250713 31 79 2983768 6
+20250714 2 2 215514 2
+20250715 1 26 269317 1
+20250716 14 49 4453482 12
+20250717 11 42 1719951 9
+20250718 6 10 4044396 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+1h+ 3
+5mn-15mn 2
+0s-30s 54
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 39
+/wp-admin/admin-ajax.php 69 5480 0 1
+/ 46 2035734 43 29
+/about/ 11 362895 3 3
+/yoga-services/ 10 316923 2 3
+/contact-us/ 9 473200 1 1
+/events/ 9 288609 2 2
+/services/ 6 187727 2 2
+/wp-content/uploads/fonts/chalky-webfont.woff2 6 986352 3 5
+/cart/ 6 268773 3 3
+/tea-services/ 6 213713 1 2
+/wp-json/wp/v2/templates 1 6 0 0
+/wp-json/wp/v2/taxonomies 1 1637 0 0
+/wp-json/wp/v2/blocks 2 1956 0 0
+/fall-season-tea-tasting-yoga-workshop/ 3 115261 0 0
+/wp-json/wp/v2/settings 1 1572 0 0
+/wp-json/gutenberg-templates/v1/sites 1 83905 0 0
+/the-presence-of-water-tea-ceremony/ 4 151664 1 1
+/wp-json/gutenberg-templates/v1/blocks 2 449535 0 0
+/wp-json/wp/v2/pages/3654 4 17096 0 0
+/wp-admin/load-styles.php 1 0 0 0
+/store/ 4 107300 0 4
+/wp-json/wp/v2/wp_pattern_category 1 6 0 0
+/account/ 4 131031 1 1
+/wp-admin/post.php 1 825466 0 0
+/category/event/ 3 108108 0 0
+/el-despertar-de-la-primvera-y-el-ascenso-de-la-energia-yang/ 5 183306 1 1
+/connection/ 3 111594 0 0
+/wp-admin/ 1 75051 0 0
+/wp-json/wp/v2/users/1 1 44 0 0
+/account/lost-password/ 3 109364 0 0
+/wp-json/wp/v2/pages/3654/autosaves 3 11133 0 0
+/wp-login.php 1 2521 1 0
+/wp-admin/edit.php 1 74015 0 0
+/wp-json/wp/v2/users 1 46 0 0
+/wp-json/wp/v2/pages/ 1 2513 0 0
+/wp-json/spectra/v1/editor 1 165 0 0
+/author/tea-way-homegmail-com/ 3 108939 0 2
+/wp-json/gutenberg-templates/v1/categories 1 587 0 0
+/wp-json/gutenberg-templates/v1/setup 1 35 0 0
+END_SIDER

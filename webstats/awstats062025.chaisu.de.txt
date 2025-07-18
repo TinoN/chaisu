@@ -1,0 +1,747 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202506 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.chaisu.de.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1992                
+POS_TIME 2674                
+POS_VISITOR 10411               
+POS_DAY 17167               
+POS_DOMAIN 3643                
+POS_LOGIN 4244                
+POS_ROBOT 4399                
+POS_WORMS 5241                
+POS_EMAILSENDER 5372                
+POS_EMAILRECEIVER 5515                
+POS_SESSION 18010               
+POS_SIDER 18222               
+POS_FILETYPES 5650                
+POS_DOWNLOADS 5969                
+POS_OS 6017                
+POS_BROWSER 6220                
+POS_SCREENSIZE 7317                
+POS_UNKNOWNREFERER 7391                
+POS_UNKNOWNREFERERBROWSER 7599                
+POS_ORIGIN 7701                
+POS_SEREFERRALS 7845                
+POS_PAGEREFS 7989                
+POS_SEARCHWORDS 8237                
+POS_KEYWORDS 8389                
+POS_MISC 2337                
+POS_ERRORS 8448                
+POS_CLUSTER 4100                
+POS_SIDER_404 8667                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250701002539 35744 10884711 12828582474509
+FirstTime 0
+LastTime 20250630202119
+LastUpdate 20250701043830 35744 34765 94 0 884
+TotalVisits 233                 
+TotalUnique 149                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 170                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 16 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 983 1049 20474633 252 260 911317
+1 425 488 18098266 262 306 1178222
+2 707 1018 9654502 456 502 658543
+3 185 353 45065841 527 617 1691136
+4 1619 2595 65973413 848 870 1363175
+5 1627 2734 83811656 702 796 854493
+6 1260 1622 38502338 544 620 973991
+7 687 804 39208699 668 751 7112215
+8 1537 2731 64020047 981 1182 14366718
+9 853 1027 38050849 433 640 6306313
+10 958 1386 37472368 174 320 662970
+11 1495 2488 108898937 344 382 1689141
+12 304 606 13419375 409 451 1256521
+13 161 351 64497782 86 112 556194
+14 473 797 46338631 131 168 715831
+15 354 678 33352217 132 187 350859
+16 678 1031 66007056 249 303 802237
+17 1124 1741 47940724 287 454 981269
+18 151 225 4839772 100 247 726735
+19 15 18 962247 89 164 9865620
+20 16 52 1438589 81 100 546007
+21 50 65 26828755 64 125 1384467
+22 211 211 434210 97 148 743717
+23 698 776 20142404 204 276 774154
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 22
+th 6307 7520 305392231
+cn 2646 3297 43426703
+hk 2561 4303 155923479
+de 2543 5243 168556783
+za 730 1107 33277071
+us 661 1556 68151106
+unknown 661 924 27546464
+in 179 183 3720919
+fr 151 169 10331458
+ec 61 339 72144060
+bg 1 1 43313
+ru 3 3 127592
+nl 1 2 39588
+at 1 1 43342
+pl 2 36 1304859
+gb 1 6 158437
+ca 6 51 1626813
+se 7 11 293672
+tr 1 5 112005
+sg 41 41 41174
+iq 1 1 208833
+es 6 47 2963409
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 18
+wordpress 4212 869286 20250630232508 0
+Googlebot/ 423 2533239 20250630171622 15
+AhrefsBot/ 223 1775311 20250630232509 20
+SemrushBot/ 161 3729201 20250626121609 61
+facebookexternalhit/ 152 14442563 20250629101208 38
+unknown 98 15510 20250628220527 98
+bingbot/ 70 2306733 20250628011151 11
+YandexBot/ 62 840589 20250629123535 37
+spider 41 248190 20250619230842 2
+dataprovider\.com 40 1699872 20250620191345 2
+yandex 13 448323 20250629045508 0
+bot[\s_+:,\.\;\/\\-] 39 661669 20250616021152 19
+python 1 28124 20250620221038 0
+YandexImages/ 2 588569 20250627115108 0
+no_user_agent 1 221627 20250617121408 0
+nutch 3 43790 20250616203242 2
+feed 3 157096 20250617104058 0
+Googlebot\-Image/ 11 158108 20250623124057 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+svg 170 232473 0 0
+png 948 607445719 0 0
+Unknown 1770 40640819 0 0
+jpeg 529 32238856 0 0
+gif 34 353042 0 0
+css 2314 8240757 0 0
+html 1324 30777302 0 0
+woff 3 17472 0 0
+php 13426 76905040 0 0
+js 4013 53031710 0 0
+jpg 267 37522349 0 0
+woff2 48 8027772 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+macosx10 46 46
+linux 286 169
+Unknown 29 2
+linuxandroid 852 449
+macosx 5245 2565
+win10 17880 13257
+macosx9 1 1
+ios_iphone 494 81
+win7 13 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 52
+chrome117.0.5938.132 34 2
+firefox120.0 1 1
+chrome126.0.0.0 35 2
+firefox103.0 18 0
+safari18.5 180 30
+chrome106.0.0.0 1 1
+chrome133.0.0.0 1 1
+firefox89.0 1 1
+chrome130.0.0.0 6 6
+chrome80.0.3987.162 1 1
+chrome137.0.0.0 369 77
+chrome128.0.0.0 1 1
+chrome134.0.0.0 124 10
+firefox113.0 1 1
+safari16.6.1 80 12
+chrome114.0.5735.199 2 2
+chrome122.0.0.0 1 1
+firefox136.0 2 1
+safari14.1.1 1 1
+chrome116.0.0.0 2 2
+chrome137.0.7151.109 242 120
+firefox137.0 2 1
+chrome131.0.0.0 47 25
+firefox134.0 2 2
+Unknown 18 0
+iphone 259 49
+firefox139.0 14958 11173
+chrome83.0.4103.97 1 1
+chrome137.0.7151.80 536 321
+firefox138.0 7440 4491
+chrome115.0.5790.171 1 1
+chrome110.0.0.0 2 2
+chrome129.0.0.0 2 2
+safari17.3.1 1 1
+chrome117.0.0.0 1 1
+chrome105.0.0.0 6 3
+chrome91.0.4472.114 3 3
+chrome124.0.0.0 150 150
+chrome115.0.0.0 1 1
+safari8.0 46 46
+firefox124.0 1 1
+chrome74.0.3729.131 33 2
+chrome127.0.0.0 1 1
+netscape5.0 1 1
+chrome114.0.0.0 1 1
+chrome113.0.5672.53 20 3
+firefox140.0 47 6
+mozilla 11 2
+android 49 0
+chrome83.0.4103.61 13 1
+safari10.0 36 2
+chrome136.0.0.0 54 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250625203613
+Ruby 20250628031615
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Ruby 20250628031615
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 464 922
+From1 0 0
+From2 0 0
+From3 43 43
+From4 16064 23881
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+https://l.instagram.com 41 41
+https://l.instagram.com 1 1
+https://de.all-url.info/de/chaisu.de/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 11
+503 37 1710306
+500 37 35161
+499 986 0
+400 3079 3089
+206 9 18484979
+404 68 3957404
+201 13 91887
+302 47 1420314
+301 124 510
+403 7 234
+405 3 111
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 27
+/.well-known/security.txt 2 -
+/blog/ 17 -
+/sitemap_index.xml 2 -
+/llms.txt 1 -
+/wp-content/plugins/excel-like-price-change-for-woocommerce-and-wp-e-commerce-light/style/style.css 1 -
+/blog 3 -
+/ads.txt 2 -
+/wp-content/uploads/2024/10/chaisu_logo_vertical-160x53.png 4 -
+/this-is-going-to-be-the-3rd-article/ 2 -
+/my-account/ 1 -
+/wp-sitemap.xml 5 -
+/water-tea-ceremony-chaisu/ 3 -
+/sitemaps.xml 2 -
+/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-04-at-10.15.47-PM-150x150.jpeg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:260,%22width%22:300,%22url%22:%22https://chaisu.de/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-04-a 1 -
+/.well-known/hosting-provider 2 http://chaisu.de/.well-known/hosting-provider
+/security.txt 1 -
+/second-article/ 1 -
+/wp-content/plugins/wp-marketing-automations/assets/css/bwfan-public.css 2 -
+/survey/ 1 -
+/wp-content/plugins/import-export-with-custom-rest-api/backend/assets/public-style.css 1 -
+/sitemap.txt 2 -
+/wp-content/plugins/ultimate-addons-for-gutenberg/admin/assets/preview-images/post-grid.png 2 https://chaisu.de/wp-admin/post.php
+/wp-content/uploads/2025/02/IMG_20250617_174934-150x150.jpg%22,%22orientation%22:%22landscape%22%7D,%22medium%22:%7B%22height%22:300,%22width%22:235,%22url%22:%22https://chaisu.de/wp-content/uploads/2025/02/IMG_20250617_174934-235x300.jpg%22,%22orientation 3 -
+/art/ 4 -
+/humans.txt 1 -
+/word%70ress/ 1 -
+/wp-json/custom/v1/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 170
+203.150.177.8 6307 7520 305392231 20250629112156
+217.86.79.216 1843 2703 56803950 20250619181736
+101.44.82.75 931 965 3348823 20250625122336
+101.44.81.251 842 1103 18182831 20250617110135
+101.44.81.255 809 902 5527073 20250617114645
+103.97.2.206 705 882 13813591 20250617141601
+217.86.89.224 678 2417 81849287 20250617124906
+45.192.2.2 396 610 4936082 20250621063122
+103.147.45.201 393 452 13816171 20250622050859
+160.30.128.189 321 474 9695491 20250616143620
+45.192.2.4 1 28 1081937 20250621051659
+69.143.84.37 1 1 47055 20250618023816
+62.138.2.214 0 3 2264130 
+54.209.60.63 12 13 563213 20250628044042
+154.28.229.103 1 1 28130 20250621103322
+43.252.208.132 35 234 6638072 20250617152348
+45.192.2.6 2 18 7418646 20250621052314
+183.87.121.124 167 167 3006 20250622012032
+62.138.6.15 150 155 6736936 20250628195335
+160.30.128.192 213 245 2093422 20250617111427
+160.30.128.130 4 35 7846833 20250605134253
+165.154.157.199 2 2 104 20250623084011
+152.53.246.211 1 1 43342 20250617090655
+87.236.176.106 0 1 1714 
+190.110.197.70 16 76 24625325 20250617131456
+154.84.135.118 5 13 268404 20250615111537
+62.138.3.52 0 2 438943 
+101.44.81.83 30 242 14821501 20250614085517
+185.247.137.243 1 1 37875 20250625203612
+67.22.62.77 1 1 29021 20250601095932
+173.252.87.10 4 53 5013765 20250604094022
+109.199.118.129 1 1 43313 20250617053448
+186.71.252.74 8 84 4751605 20250630123627
+174.138.81.41 1 1 29406 20250623174933
+137.184.168.240 1 2 39589 20250623062458
+184.72.115.35 9 11 504217 20250628012549
+93.158.91.11 1 2 48323 20250615055238
+64.23.136.225 1 2 48323 20250610064420
+160.30.128.191 16 19 84031 20250621121001
+185.247.137.69 0 1 25773 
+43.252.208.108 35 35 2905 20250621235638
+159.89.191.221 1 1 28453 20250623231937
+205.169.39.192 1 13 83733 20250621103419
+154.84.135.117 18 37 897548 20250615110531
+103.167.134.115 0 6 617931 
+160.30.128.193 56 63 1723466 20250617153214
+62.138.18.60 0 5 593558 
+34.116.173.95 2 36 1304859 20250621103500
+154.84.135.119 18 26 3218204 20250616142957
+159.203.64.153 1 1 34490 20250618190647
+45.192.2.5 223 343 19831442 20250621054205
+43.252.208.131 163 186 3852301 20250617153913
+149.57.191.177 1 26 288577 20250624031928
+159.89.40.84 1 1 26157 20250623101606
+87.236.176.2 0 1 24073 
+185.36.195.98 195 230 2403508 20250616054833
+87.236.176.182 0 1 25773 
+167.71.178.68 1 1 26556 20250624034301
+64.225.50.203 1 1 28117 20250623114141
+103.167.134.118 1 3 571965 20250621051757
+185.36.195.86 76 165 3189866 20250616062130
+185.36.195.29 9 9 740 20250617020938
+167.160.67.44 4 43 403370 20250605233611
+62.138.2.14 0 2 107518 
+178.128.18.34 1 1 37854 20250622125445
+93.157.144.60 1 1 44858 20250602143616
+149.57.180.171 1 1 46609 20250611184929
+77.74.177.118 2 2 82734 20250619211420
+44.244.65.47 1 1 208868 20250604124048
+185.247.137.195 0 1 1714 
+173.252.127.23 1 25 1217607 20250622045843
+193.138.218.204 1 2 29844 20250621103756
+87.236.176.134 0 1 24073 
+128.199.45.213 1 2 39588 20250625073142
+62.138.2.160 0 1 12712 
+205.169.39.3 2 34 1287941 20250621103518
+85.254.43.141 1 1 30555 20250601095932
+134.209.45.60 1 1 28117 20250623212753
+43.230.11.10 4 18 405455 20250615135304
+43.228.226.2 12 16 3717913 20250617081350
+87.236.176.149 1 1 37875 20250625185752
+185.36.195.88 2 2 161 20250616053719
+44.242.147.60 1 1 37852 20250625002248
+170.178.154.197 1 1 31259 20250601095934
+35.85.229.6 1 1 177661 20250627004812
+103.97.2.198 3 10 4916325 20250615121726
+160.30.128.190 4 4 4772 20250617153354
+91.231.89.35 1 1 177661 20250623135548
+167.99.52.127 1 1 46909 20250623140555
+101.44.83.114 1 1 52 20250603025616
+59.173.180.226 3 20 446594 20250604032415
+64.140.134.40 1 1 31825 20250601095931
+103.147.45.202 5 8 401178 20250618153239
+142.93.185.23 1 1 30429 20250623172222
+173.252.127.17 0 2 3137 
+217.160.202.182 1 1 37854 20250627103206
+185.247.137.234 0 1 1714 
+85.254.51.26 1 1 28513 20250601095932
+149.56.150.138 1 1 177672 20250620191320
+190.152.237.70 37 179 42767130 20250613163113
+173.252.127.19 1 1 28117 20250622045837
+160.30.128.185 21 40 1414916 20250615215754
+160.30.128.186 3 20 520308 20250615013113
+103.147.45.203 0 10 1568933 
+173.252.127.39 0 3 16743 
+43.252.208.105 133 133 2394 20250622004340
+149.57.176.104 1 26 288577 20250620001444
+43.252.208.106 134 134 4037 20250622001338
+45.157.54.24 1 1 208833 20250605234629
+167.160.79.23 1 26 288577 20250621013652
+93.158.91.250 1 1 44856 20250606030445
+45.192.2.3 108 108 8964 20250621070117
+5.133.192.127 1 2 46578 20250607061017
+154.84.135.120 302 797 44092272 20250616142531
+69.171.251.7 2 35 1289655 20250629033048
+103.97.2.204 52 86 5103578 20250617141454
+184.72.121.156 4 11 934997 20250621061545
+103.167.134.119 3 3 35216 20250617085301
+101.44.80.20 6 6 70230 20250617110323
+185.36.195.95 151 241 9300945 20250616053012
+185.247.137.208 0 1 44929 
+185.36.195.94 173 714 34324791 20250616053709
+168.151.60.56 1 1 32386 20250601095933
+172.241.20.96 5 10 174013 20250613212755
+18.236.133.243 1 1 214100 20250609104240
+2.213.45.85 13 85 28500650 20250620130531
+103.97.2.197 6 54 8223927 20250615145444
+101.44.83.95 8 9 269911 20250616200139
+185.36.195.136 13 15 310674 20250617100119
+185.36.195.130 2 2 2386 20250617100757
+64.225.53.70 1 1 25457 20250623222142
+2.213.60.170 5 34 1250933 20250629201530
+94.247.172.129 1 1 46609 20250612054614
+103.97.2.202 13 31 247940 20250617140945
+192.121.136.190 1 1 37875 20250628203614
+103.40.79.27 1 1 83 20250625192618
+173.252.127.1 2 35 1289655 20250625120435
+173.252.127.62 0 2 8731 
+23.226.16.221 5 11 154644 20250620004531
+103.147.45.198 4 10 144370 20250615023055
+185.36.195.48 0 2 217176 
+103.97.2.201 0 1 2937625 
+23.81.59.220 5 11 154650 20250626153957
+87.236.176.78 0 1 44929 
+205.169.39.13 1 1 37878 20250620185134
+43.252.208.129 67 100 4881524 20250617152922
+91.196.152.56 1 1 177661 20250623140430
+160.30.121.10 3 3 156 20250602093417
+193.101.132.8 2 2 69272 20250614134645
+54.175.74.27 17 20 921673 20250628030926
+15.204.182.106 2 2 75756 20250620235733
+209.99.158.80 1 1 33181 20250601095930
+195.135.55.151 6 47 2963409 20250630202119
+165.154.157.198 4 5 10153 20250623083514
+120.231.215.90 7 9 39159 20250601124600
+154.84.135.121 205 269 3710805 20250616142414
+103.147.45.197 138 427 8082975 20250615025535
+134.122.3.5 1 1 46908 20250623102133
+54.86.66.252 4 9 575964 20250623001218
+43.230.11.240 10 12 233589 20250615154304
+103.147.45.205 24 32 26288037 20250617212057
+46.228.199.158 1 1 44837 20250606194943
+185.36.195.110 3 38 3005000 20250614081709
+172.241.152.116 5 10 167628 20250607092749
+101.44.81.190 9 40 720529 20250615144051
+35.89.69.142 1 1 46609 20250612124410
+8.223.51.165 40 40 3320 20250625132607
+160.30.128.194 20 21 4163069 20250617145926
+43.230.11.23 2 10 367853 20250614092909
+5.133.192.131 1 2 39587 20250624120420
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20250601 17 19 382308 10
+20250602 24 72 4480505 4
+20250603 1 1 52 1
+20250604 8 74 5669227 3
+20250605 30 102 9574606 6
+20250606 21 21 902347 5
+20250607 6 12 214206 2
+20250608 18 18 772073 1
+20250609 97 516 21372868 2
+20250610 1 2 48323 1
+20250611 1 1 46609 1
+20250612 2 2 93218 2
+20250613 67 215 44105487 8
+20250614 110 622 38742640 5
+20250615 318 988 35094512 17
+20250616 1359 2628 104116189 15
+20250617 3591 5608 161214958 30
+20250618 47 111 17621317 5
+20250619 1850 2713 57364584 8
+20250620 23 126 29235177 6
+20250621 806 1297 37955760 22
+20250622 795 846 4423112 13
+20250623 38 48 2107211 17
+20250624 3401 4506 167108885 6
+20250625 1818 1951 73467519 17
+20250626 2075 2163 55200859 7
+20250627 11 43 1969150 7
+20250628 22 27 1529441 7
+20250629 8 51 18812607 3
+20250630 6 63 1807561 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 14
+15mn-30mn 8
+5mn-15mn 19
+1h+ 19
+2mn-5mn 16
+0s-30s 142
+30mn-1h 15
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 166
+/wp-admin/admin-ajax.php 13109 2640071 31 40
+/ 696 7756954 107 91
+/wp-json/gutenberg-templates/v1/blocks 140 31425919 0 0
+/wp-json/wp/v2/blocks 139 107414 0 0
+/wp-json/spectra/v1/all_taxonomy 121 198416 0 0
+/wp-json/wp/v2/pages/3656/autosaves 111 235898 0 0
+/wp-json/wp/v2/pages/3654/autosaves 111 293062 0 0
+/wp-admin/edit.php 78 5695386 3 1
+/wp-json/wp/v2/settings 72 113184 0 0
+/wp-json/spectra/v1/editor 71 11715 0 0
+/tea-services/ 58 1707364 3 5
+/wp-json/wp/v2/posts/3197/autosaves 11 17067 0 1
+/wp-json/wp/v2/media/3116 1 1496 0 0
+/wp-json/wp/v2/users/1 50 7870 0 0
+/wp-json/wp/v2/media/3652 2 3152 0 0
+/wp-json/wp/v2/media/3511 2 3136 0 0
+/wp-json/wp/v2/pages/3654 42 140004 0 0
+/wp-admin/options-reading.php 2 135343 0 0
+/wp-json/wc/v3/payments/accounts/session 2 483 0 0
+/wp-admin/edit-tags.php 7 488962 0 0
+/wp-json/wp/v2/taxonomies/post_tag 3 2313 0 0
+/wp-json/wc/v3/payments/deposits 2 62 0 0
+/services/ 41 1420920 8 7
+/wp-json/wp/v2/media/3710 1 1571 0 0
+/wp-content/plugins/copy-delete-posts/assets/fonts/Montserrat-Regular.woff2 6 115032 0 0
+/wp-json/wc/v3/payments/disputes 2 30 0 0
+/wp-json/wp/v2/taxonomies/category 3 2451 0 0
+/wp-json/wp/v2/posts 55 437063 0 0
+/wp-json/wp/v2/media/3539 4 6160 0 0
+/wp-admin/post.php 67 55165358 2 1
+/wp-admin/options-general.php 1 87542 0 0
+/wp-json/wp/v2/posts/3197 1 2397 0 0
+/wp-json/wp/v2/media/3488 1 1549 0 0
+/wp-admin/load-scripts.php 33 689309 0 0
+/wp-json/zipwp-images/v1/images 2 12016 0 0
+/wp-json/wp/v2/templates/lookup 24 144 0 0
+/wp-json/wc-analytics/orders 5 30 0 0
+/wp-json/wp/v2/posts/3352 5 23889 0 0
+/blog/ 18 695272 5 1
+/account/ 11 402104 2 2
+/wp-json/wc-admin/onboarding/tasks 5 6709 0 0
+/wp-json/wp/v2/media/3786 1 1369 0 0
+/wp-json/wp/v2/media/3632 3 4825 0 0
+/wp-json/wp/v2/pages/3111/autosaves 26 66271 0 0
+/account/lost-password/ 9 364286 1 2
+/wp-json/wp/v2/pages/61/autosaves 11 46744 0 0
+/store/ 14 513984 1 3
+/wp-json/wc/store/v1/cart/remove-item 1 357 0 0
+/wp-login.php 15 38700 4 1
+/wp-json/gutenberg-templates/v1/categories 70 41090 0 0
+/wp-json/wc/v3/payments/accounts 1 2309 0 0
+/wp-json/wp/v2/pages/3656 37 100904 0 0
+/wp-json/wp/v2/navigation 3 3769 0 0
+/wp-json/wp/v2/media/3130 1 1381 0 0
+/wp-json/gutenberg-templates/v1/sites 69 5800247 0 0
+/wp-json/wp/v2/media/3709 1 1563 0 0
+/wp-json/wp/v2/categories 16 1184 0 0
+/wp-json/wp/v2/media/3559 3 4718 0 0
+/wp-admin/update-core.php 5 232458 0 0
+/wp-admin/options-writing.php 1 67726 0 0
+/wp-content/uploads/fonts/chalky-webfont.woff2 33 5695360 4 9
+/wp-json/wp/v2/media/3526 1 1461 0 0
+/category/blogpost/ 6 244793 0 3
+/wp-json/wp/v2/posts/3637 17 69911 0 0
+/wp-json/wp/v2/media/3394 8 11471 0 0
+/wp-json/wp/v2/posts/3637/autosaves 37 126690 0 0
+/the-presence-of-water-tea-ceremony-2/ 25 992517 1 1
+/wp-json/wp/v2/pages/3111 8 22573 0 0
+/wp-json/wp/v2/media/3722 1 1475 0 0
+/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2 5 1633140 0 0
+/wp-admin/load-styles.php 46 2657031 0 1
+/wp-json/wp/v2/taxonomies 46 75302 0 0
+/wp-json/wp/v2/blocks/3613 9 8721 0 0
+/wp-admin/options-discussion.php 3 205476 0 0
+/wp-json/wp/v2/media/3528 6 9538 0 0
+/wp-json/wp/v2/pages/59 8 67558 0 0
+/wp-json/wp/v2/wp_pattern_category 69 414 0 0
+/wp-json/wp/v2/templates 47 282 0 0
+/wp-json/wp/v2/blocks/3613/autosaves 5 7607 0 0
+/wp-json/wp/v2/pages 1 11437 0 0
+/cart/ 14 803468 3 2
+/wp-json/wp/v2/users 50 4864 0 0
+/the-presence-of-water-tea-ceremony/ 56 2057485 5 6
+/connection/ 18 667102 5 8
+/wp-json/wp/v2/pages/3231 2 2460 0 0
+/wp-admin/nav-menus.php 11 863578 0 0
+/wp-json/wp/v2/pages/3123 1 1111 0 0
+http://chaisu.de/ 1 47055 1 1
+/wp-json/wp/v2/pages/ 18 45226 0 0
+/wp-json/wc-analytics/admin/notes 7 4055 0 0
+/wp-admin/plugins.php 2 187167 0 0
+/wp-json/wc-analytics/products/count-low-in-stock 5 75 0 0
+/wp-json/wc-admin/options 10 715 0 0
+/wp-json/wp/v2/media/3630 2 2784 0 0
+/wp-json/wp/v2/media/3734 1 1515 0 0
+/wp-json/wc-admin/plugins/active 3 408 0 0
+/wp-json/jetpack/v4/connection 3 390 0 0
+/wp-admin/admin.php 7 811143 0 0
+/wp-json/wp/v2/media/3735 1 1509 0 0
+/art/ 9 323276 2 3
+/wp-json/wp/v2/pages/61 4 19145 0 0
+/wp-json/wp/v2/media/3765 1 1535 0 0
+/yoga-services/ 49 1376206 2 7
+/wp-json/wp/v2/block-patterns/patterns 26 844270 0 0
+/wp-json/wp/v2/media/3198 1 1514 0 0
+/wp-json/wp/v2/media/3732 1 1656 0 0
+/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2 4 584240 0 0
+/events/ 65 2502357 13 10
+/wp-json/wp/v2/media/3519 1 1581 0 0
+/wp-json/wp/v2/media/3536 1 1577 0 0
+/wp-json/wp/v2/menus 1 393 0 0
+/wp-admin/customize.php 2 1928795 0 0
+/wp-json/wp/v2/posts/3179 1 5274 0 0
+/wp-admin/ 19 1391870 4 0
+/wp-json/wp/v2/media/3666 2 3129 0 0
+/wp-json/wp/v2/media/3662 1 1496 0 0
+/wp-json/wp/v2/media/3719 1 1554 0 0
+/wp-admin/post-new.php 5 4104139 0 0
+/wp-json/wp/v2/widget-types 2 2806 0 0
+/wp-json/wc-admin/plugins/installed 3 456 0 0
+/water-tea-ceremony-chaisu/ 18 773726 3 3
+/wp-json/wp/v2/media/3772 1 1505 0 0
+/wp-json/wp/v2/types/wp_block 4 3236 0 0
+/wp-json/wp/v2/users/me 11 16128 0 0
+/this-is-going-to-be-the-3rd-article/ 4 184571 1 1
+/product/anchor-bracelet-2/ 1 48827 0 0
+/about/ 65 2516284 13 9
+/wp-json/gutenberg-templates/v1/setup 71 2485 0 0
+/wp-json/wp-block-editor/v1/navigation-fallback 1 562 0 0
+/wp-json/wp/v2/categories/1 3 840 0 0
+/wp-json/wp/v2/media/3202 1 1496 0 0
+/contact-us/ 22 860206 4 6
+/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff 2 16168 0 0
+/wp-json/wp/v2/media/3720 1 1511 0 0
+/category/event/ 8 319483 0 1
+/wp-json/wp/v2/media/3771 1 1628 0 0
+/wp-json/wp/v2/posts/3352/autosaves 3 11067 0 0
+/wp-admin/update.php 2 30911 0 0
+/wp-json/wp/v2/media/3647 2 3302 0 0
+/wp-json/wp/v2/media/3151 1 1228 0 0
+/wp-json/wp/v2/media/3396 1 1424 0 0
+/wp-json/wp/v2/types 2 1670 0 0
+/wp-admin/index.php 2 156487 0 1
+/wp-json/wc/store/v1/cart 1 1083 0 0
+/wp-json/wp/v2/media/3663 4 5678 0 0
+/wp-json/wp/v2/tags 1 6 0 0
+/fall-season-tea-tasting-yoga-workshop/ 34 1238937 3 2
+/author/tea-way-homegmail-com/ 8 324281 0 0
+/wp-json/wp/v2/media/3422 2 2864 0 0
+/wp-json/wp/v2/media/3629 2 3257 0 0
+/wp-json/wp/v2/media/3631 1 1630 0 0
+/wp-json/wp/v2/posts/ 4 11784 0 0
+/wp-json/wc/v3/payments/deposits/overview-all 2 386 0 0
+/wp-json/wc-analytics/products/reviews 5 30 0 0
+/wp-admin/term.php 4 267555 0 0
+/wp-admin/themes.php 6 435420 0 0
+/wp-admin/async-upload.php 18 16483 0 0
+/wp-content/plugins/woocommerce/assets/fonts/star.woff 1 1304 0 0
+/wp-json/wp/v2/pages/59/autosaves 13 107480 0 0
+/wp-json/wp/v2/media/3733 1 1646 0 0
+/wp-json/wp/v2/media 3 6370 0 0
+/wp-json/wc/v3/payments/settings 2 2013 0 0
+/wp-json/wp/v2/media/3404 2 2966 0 0
+/el-despertar-de-la-primvera-y-el-ascenso-de-la-energia-yang/ 33 1186964 2 4
+/wp-json/wp/v2/media/3645 1 1643 0 0
+/wp-json/wp/v2/media/3213 2 3042 0 0
+END_SIDER

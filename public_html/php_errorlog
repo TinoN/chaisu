@@ -1,0 +1,78 @@
+[29-Jan-2025 21:23:56 UTC] wp_auto_login: trying to login user_id==1 loginusername=tea.way.home@gmail.com to admin_url=http://chaisu.de/wp-admin/
+[30-Jan-2025 13:27:34 UTC] Invalid trp_settings: "not_set"
+[30-Jan-2025 13:28:27 UTC] WordPress database error Duplicate entry '1' for key 'kej_terms.PRIMARY' for query INSERT INTO `kej_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES (1, 'Uncategorised', 'uncategorised', 0) made by include('/usr/local/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php'), WP_CLI\bootstrap, WP_CLI\Bootstrap\LaunchRunner->process, WP_CLI\Runner->start, WP_CLI\Runner->run_command_and_exit, WP_CLI\Runner->run_command, WP_CLI\Dispatcher\Subcommand->invoke, call_user_func, WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure}, call_user_func, Site_Command->empty_, Site_Command->insert_default_terms
+[30-Jan-2025 13:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Astra_Site_Options_Import::import_options() in /home/customer/www/chaisu.de/public_html/wp-content/plugins/wordpress-starter/core/Importer/Theme_Importer_Astra.php:36
+Stack trace:
+#0 /home/customer/www/chaisu.de/public_html/wp-content/plugins/wordpress-starter/core/Importer/Importer.php(90): SiteGround_Central\Importer\Theme_Importer_Astra->import_json('{\n   "astra-sit...')
+#1 /home/customer/www/chaisu.de/public_html/wp-content/plugins/wordpress-starter/core/Importer/Importer.php(46): SiteGround_Central\Importer\Importer->import(Object(stdClass))
+#2 /home/customer/www/chaisu.de/public_html/wp-content/plugins/wordpress-starter/core/Rest/Controllers/V1/Rest_Install.php(123): SiteGround_Central\Importer\Importer->pre_import(Array)
+#3 /home/customer/www/chaisu.de/public_html/wp-includes/rest-api/class-wp-rest-server.php(1292): SiteGround_Central\Rest\Controllers\V1\Rest_Install->install(Object(WP_REST_Request))
+#4 /home/customer/www/chaisu.de/public_html/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/siteground-cen...', Array, NULL)
+#5 /home/customer/www/chaisu.de/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 /home/customer/www/chaisu.de/public_html/wp-includes/rest-api.php(449): WP_REST_Server->serve_request('/siteground-cen...')
+#7 /home/customer/www/chaisu.de/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 /home/customer/www/chaisu.de/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/customer/www/chaisu.de/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#10 /home/customer/www/chaisu.de/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 /home/customer/www/chaisu.de/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#12 /home/customer/www/chaisu.de/public_html/wp-includes/functions.php(1336): WP->main('')
+#13 /home/customer/www/chaisu.de/public_html/wp-blog-header.php(16): wp()
+#14 /home/customer/www/chaisu.de/public_html/index.php(17): require('/home/customer/...')
+#15 {main}
+  thrown in /home/customer/www/chaisu.de/public_html/wp-content/plugins/wordpress-starter/core/Importer/Theme_Importer_Astra.php on line 36
+[30-Jan-2025 13:33:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Astra_Site_Options_Import::import_options() in /home/customer/www/chaisu.de/public_html/wp-content/plugins/wordpress-starter/core/Importer/Theme_Importer_Astra.php:36
+Stack trace:
+#0 /home/customer/www/chaisu.de/public_html/wp-content/plugins/wordpress-starter/core/Importer/Importer.php(90): SiteGround_Central\Importer\Theme_Importer_Astra->import_json('{\n   "astra-sit...')
+#1 /home/customer/www/chaisu.de/public_html/wp-content/plugins/wordpress-starter/core/Importer/Importer.php(46): SiteGround_Central\Importer\Importer->import(Object(stdClass))
+#2 /home/customer/www/chaisu.de/public_html/wp-content/plugins/wordpress-starter/core/Rest/Controllers/V1/Rest_Install.php(123): SiteGround_Central\Importer\Importer->pre_import(Array)
+#3 /home/customer/www/chaisu.de/public_html/wp-includes/rest-api/class-wp-rest-server.php(1292): SiteGround_Central\Rest\Controllers\V1\Rest_Install->install(Object(WP_REST_Request))
+#4 /home/customer/www/chaisu.de/public_html/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/siteground-cen...', Array, NULL)
+#5 /home/customer/www/chaisu.de/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 /home/customer/www/chaisu.de/public_html/wp-includes/rest-api.php(449): WP_REST_Server->serve_request('/siteground-cen...')
+#7 /home/customer/www/chaisu.de/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 /home/customer/www/chaisu.de/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/customer/www/chaisu.de/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#10 /home/customer/www/chaisu.de/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 /home/customer/www/chaisu.de/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#12 /home/customer/www/chaisu.de/public_html/wp-includes/functions.php(1336): WP->main('')
+#13 /home/customer/www/chaisu.de/public_html/wp-blog-header.php(16): wp()
+#14 /home/customer/www/chaisu.de/public_html/index.php(17): require('/home/customer/...')
+#15 {main}
+  thrown in /home/customer/www/chaisu.de/public_html/wp-content/plugins/wordpress-starter/core/Importer/Theme_Importer_Astra.php on line 36
+[30-Jan-2025 13:35:09 UTC] wp_auto_login: trying to login user_id==1 loginusername=tea.way.home@gmail.com to admin_url=http://chaisu.de/wp-admin/
+[30-Jan-2025 13:36:15 UTC] Invalid trp_settings: "not_set"
+[30-Jan-2025 18:49:34 UTC] wp_auto_login: trying to login user_id==1 loginusername=tea.way.home@gmail.com to admin_url=http://chaisu.de/wp-admin/
+[30-Jan-2025 18:50:19 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[02-Feb-2025 14:38:17 UTC] wp_auto_login: trying to login user_id==1 loginusername=tea.way.home@gmail.com to admin_url=http://chaisu.de/wp-admin/
+[02-Feb-2025 15:54:50 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[02-Feb-2025 15:58:48 UTC] wp_auto_login: trying to login user_id==1 loginusername=tea.way.home@gmail.com to admin_url=http://chaisu.de/wp-admin/
+[02-Feb-2025 16:54:19 UTC] wp_auto_login: trying to login user_id==1 loginusername=tea.way.home@gmail.com to admin_url=http://chaisu.de/wp-admin/
+[02-Feb-2025 16:56:57 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[02-Feb-2025 16:57:04 UTC] PHP Warning:  include_once(/home/customer/www/chaisu.de/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php): Failed to open stream: No such file or directory in /home/customer/www/chaisu.de/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 826
+[02-Feb-2025 16:57:04 UTC] PHP Warning:  include_once(): Failed opening '/home/customer/www/chaisu.de/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php' for inclusion (include_path='.:/usr/local/php82/pear') in /home/customer/www/chaisu.de/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 826
+[02-Feb-2025 16:57:04 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Integration_MaxMind_Geolocation" not found in /home/customer/www/chaisu.de/public_html/wp-content/plugins/woocommerce/includes/class-wc-integrations.php:41
+Stack trace:
+#0 /home/customer/www/chaisu.de/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(845): WC_Integrations->__construct()
+#1 /home/customer/www/chaisu.de/public_html/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#2 /home/customer/www/chaisu.de/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home/customer/www/chaisu.de/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/customer/www/chaisu.de/public_html/wp-settings.php(704): do_action('init')
+#5 /home/customer/www/chaisu.de/public_html/wp-config.php(103): require_once('/home/customer/...')
+#6 /home/customer/www/chaisu.de/public_html/wp-load.php(50): require_once('/home/customer/...')
+#7 /home/customer/www/chaisu.de/public_html/wp-cron.php(46): require_once('/home/customer/...')
+#8 {main}
+  thrown in /home/customer/www/chaisu.de/public_html/wp-content/plugins/woocommerce/includes/class-wc-integrations.php on line 41
+[04-Feb-2025 08:49:07 UTC] wp_auto_login: trying to login user_id==1 loginusername=tea.way.home@gmail.com to admin_url=https://chaisu.de/wp-admin/
+[04-Feb-2025 10:07:55 UTC] Astra Addon: DB version updated!
+[04-Feb-2025 10:07:55 UTC] Astra Addon: Batch Process Completed!
+[04-Feb-2025 10:10:49 UTC] Astra Addon: DB version updated!
+[04-Feb-2025 10:10:49 UTC] Astra Addon: Batch Process Completed!
+[04-Feb-2025 11:49:17 UTC] PHP Warning:  chmod(): No such file or directory in /home/customer/www/chaisu.de/public_html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[06-Feb-2025 10:48:46 UTC] PHP Warning:  Array to string conversion in /home/customer/www/chaisu.de/public_html/wp-includes/class-wp-query.php on line 4469
+[06-Feb-2025 10:49:14 UTC] PHP Warning:  Array to string conversion in /home/customer/www/chaisu.de/public_html/wp-includes/class-wp-query.php on line 4469
+[28-Mar-2025 17:46:05 UTC] Cron reschedule event error for hook: jetpack_sync_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"jetpack_sync_interval","args":[],"interval":300}
+[28-Mar-2025 17:46:05 UTC] Cron unschedule event error for hook: jetpack_sync_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"jetpack_sync_interval","args":[],"interval":300}
+[28-Mar-2025 17:46:05 UTC] Cron reschedule event error for hook: jetpack_sync_full_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"jetpack_sync_interval","args":[],"interval":300}
+[28-Mar-2025 17:46:05 UTC] Cron reschedule event error for hook: wp_scheduled_delete, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[14-Jun-2025 08:13:41 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[14-Jun-2025 08:13:41 UTC] Cron reschedule event error for hook: jetpack_sync_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"jetpack_sync_interval","args":[],"interval":300}
